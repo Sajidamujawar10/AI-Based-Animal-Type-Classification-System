@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pashu Pehchan — Breed Recognition</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --cream: #F6F1E4;
+            --cream-alt: #EEE6D2;
+            --ink: #2B2A24;
+            --forest: #2F4538;
+            --forest-deep: #1E2E25;
+            --gold: #C08A2E;
+            --gold-light: #E4B45C;
+            --rust: #A04A2E;
+            --line: #D9CFB4;
+            --white: #FFFDF8;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background: var(--cream);
+            color: var(--ink);
+            font-family: 'Inter', sans-serif;
+            line-height: 1.5;
+        }
+
+        .devanagari {
+            font-family: 'Noto Sans Devanagari', 'Inter', sans-serif;
+        }
+
+        h1,
+        h2,
+        h3,
+        .display {
+            font-family: 'Fraunces', serif;
+            font-weight: 700;
+            letter-spacing: -0.01em;
+            margin: 0;
+        }
+
+        /* ---------- Header ---------- */
+        header {
+            background: var(--forest-deep);
+            color: var(--white);
+            padding: 16px 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: sticky;
+            top: 0;
+            z-index: 20;
+            border-bottom: 3px solid var(--gold);
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .brand-mark {
+            width: 38px;
+            height: 38px;
+            border-radius: 10px;
+            background: linear-gradient(135deg, var(--gold-light), var(--gold));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            flex-shrink: 0;
+        }
+
+        .brand-name {
+            font-family: 'Fraunces', serif;
+            font-size: 1.25rem;
+            font-weight: 700;
+            line-height: 1.1;
+        }
+
+        .brand-sub {
+            font-size: 0.7rem;
+            opacity: 0.75;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+        }
+
+        .lang-toggle {
+            display: flex;
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 999px;
+            padding: 4px;
+            gap: 2px;
+        }
+
+        .lang-btn {
+            border: none;
+            background: transparent;
+            color: rgba(255, 255, 255, 0.7);
+            padding: 8px 16px;
+            border-radius: 999px;
+            font-weight: 600;
+            font-size: 0.85rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .lang-btn.active {
+            background: var(--gold);
+            color: var(--forest-deep);
+        }
+
+        /* ---------- Hero ---------- */
+        .hero {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 56px 24px 40px;
+            text-align: center;
+        }
+
+        .eyebrow {
+            display: inline-block;
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--rust);
+            background: rgba(160, 74, 46, 0.1);
+            padding: 6px 14px;
+            border-radius: 999px;
+            margin-bottom: 18px;
+        }
+
+        .hero h1 {
+            font-size: clamp(2rem, 5vw, 3rem);
+            color: var(--forest-deep);
+            margin-bottom: 16px;
+        }
+
+        .hero p {
+            font-size: 1.05rem;
+            color: #5a5748;
+            max-width: 620px;
+            margin: 0 auto;
+        }
+
+        /* ---------- Main layout ---------- */
+        main {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 24px 80px;
+        }
+
+        .card {
+            background: var(--white);
+            border: 1px solid var(--line);
+            border-radius: 18px;
+            padding: 32px;
+            box-shadow: 0 2px 10px rgba(43, 42, 36, 0.04);
+        }
+
+        /* ---------- Upload area ---------- */
+        .upload-zone {
+            border: 2px dashed var(--line);
+            border-radius: 14px;
+            padding: 48px 24px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            position: relative;
+        }
+
+        .upload-zone:hover,
+        .upload-zone.dragover {
+            border-color: var(--gold);
+            background: rgba(192, 138, 46, 0.05);
+        }
+
+        .upload-zone input[type="file"] {
+            position: absolute;
+            inset: 0;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        .upload-icon {
+            width: 56px;
+            height: 56px;
+            margin: 0 auto 16px;
+            border-radius: 50%;
+            background: var(--cream-alt);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 26px;
+        }
+
+        .upload-title {
+            font-weight: 600;
+            font-size: 1.05rem;
+            margin-bottom: 6px;
+        }
+
+        .upload-hint {
+            font-size: 0.85rem;
+            color: #857f6b;
+        }
+
+        .preview-wrap {
+            display: none;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .preview-wrap img {
+            max-width: 100%;
+            max-height: 320px;
+            border-radius: 12px;
+            border: 1px solid var(--line);
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            border: none;
+            border-radius: 10px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            padding: 14px 28px;
+            cursor: pointer;
+            transition: transform 0.15s ease, box-shadow 0.15s ease;
+        }
+
+        .btn-primary {
+            background: var(--forest);
+            color: var(--white);
+            margin-top: 20px;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 14px rgba(47, 69, 56, 0.25);
+        }
+
+        .btn-primary:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--forest);
+            border: 1.5px solid var(--forest);
+        }
+
+        /* ---------- Results ---------- */
+        .results {
+            display: none;
+            margin-top: 28px;
+            border-top: 1px solid var(--line);
+            padding-top: 28px;
+        }
+
+        .results-label {
+            font-size: 0.8rem;
+            font-weight: 600;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: #857f6b;
+            margin-bottom: 14px;
+        }
+
+        .prediction-row {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            padding: 14px 16px;
+            border-radius: 12px;
+            margin-bottom: 10px;
+            background: var(--cream-alt);
+        }
+
+        .prediction-row.top {
+            background: linear-gradient(90deg, rgba(192, 138, 46, 0.15), rgba(192, 138, 46, 0.05));
+            border: 1.5px solid var(--gold);
+        }
+
+        .rank-badge {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: var(--forest);
+            color: var(--white);
+            font-size: 0.8rem;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .prediction-row.top .rank-badge {
+            background: var(--gold);
+            color: var(--forest-deep);
+        }
+
+        .prediction-info {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .prediction-name {
+            font-weight: 600;
+            font-size: 1rem;
+        }
+
+        .prediction-type {
+            font-size: 0.8rem;
+            color: #857f6b;
+        }
+
+        .confidence-bar-bg {
+            width: 100%;
+            height: 6px;
+            background: rgba(0, 0, 0, 0.08);
+            border-radius: 999px;
+            margin-top: 6px;
+            overflow: hidden;
+        }
+
+        .confidence-bar-fill {
+            height: 100%;
+            background: var(--gold);
+            border-radius: 999px;
+        }
+
+        .confidence-pct {
+            font-weight: 700;
+            font-size: 1.1rem;
+            color: var(--forest-deep);
+            flex-shrink: 0;
+            min-width: 60px;
+            text-align: right;
+        }
+
+        .confirm-row {
+            display: flex;
+            gap: 12px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .status-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            padding: 6px 12px;
+            border-radius: 999px;
+            margin-top: 16px;
+        }
+
+        .status-pill.live {
+            background: rgba(47, 69, 56, 0.12);
+            color: var(--forest);
+        }
+
+        .status-pill.demo {
+            background: rgba(160, 74, 46, 0.12);
+            color: var(--rust);
+        }
+
+        .status-pill.checking {
+            background: var(--cream-alt);
+            color: #857f6b;
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: currentColor;
+        }
+
+        .review-warn {
+            background: rgba(192, 138, 46, 0.14);
+            border: 1.5px solid var(--gold);
+            color: #6b4a10;
+            padding: 12px 16px;
+            border-radius: 10px;
+            font-size: 0.9rem;
+            margin-bottom: 14px;
+        }
+
+        .error-box {
+            background: rgba(160, 74, 46, 0.1);
+            border: 1px solid rgba(160, 74, 46, 0.3);
+            color: var(--rust);
+            padding: 12px 16px;
+            border-radius: 10px;
+            font-size: 0.9rem;
+            margin-top: 16px;
+            display: none;
+        }
+
+        .demo-note {
+            display: flex;
+            gap: 10px;
+            background: rgba(160, 74, 46, 0.08);
+            border: 1px solid rgba(160, 74, 46, 0.25);
+            color: var(--rust);
+            font-size: 0.85rem;
+            padding: 12px 16px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        /* ---------- Section headers ---------- */
+        .section-title {
+            font-size: 1.6rem;
+            color: var(--forest-deep);
+            margin: 64px 0 8px;
+        }
+
+        .section-desc {
+            color: #5a5748;
+            margin-bottom: 24px;
+        }
+
+        /* ---------- Breed grid ---------- */
+        .breed-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+            gap: 16px;
+        }
+
+        .breed-card {
+            background: var(--white);
+            border: 1px solid var(--line);
+            border-radius: 14px;
+            padding: 18px;
+        }
+
+        .breed-card-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 8px;
+        }
+
+        .breed-tag {
+            font-size: 0.7rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            padding: 3px 10px;
+            border-radius: 999px;
+        }
+
+        .breed-tag.cattle {
+            background: rgba(47, 69, 56, 0.1);
+            color: var(--forest);
+        }
+
+        .breed-tag.buffalo {
+            background: rgba(160, 74, 46, 0.1);
+            color: var(--rust);
+        }
+
+        .breed-card h3 {
+            font-size: 1.05rem;
+            margin-bottom: 4px;
+        }
+
+        .breed-origin {
+            font-size: 0.8rem;
+            color: #857f6b;
+            margin-bottom: 8px;
+        }
+
+        .breed-desc {
+            font-size: 0.85rem;
+            color: #5a5748;
+            line-height: 1.5;
+        }
+
+        /* ---------- Footer ---------- */
+        footer {
+            background: var(--forest-deep);
+            color: rgba(255, 255, 255, 0.65);
+            text-align: center;
+            padding: 32px 24px;
+            font-size: 0.85rem;
+        }
+
+        footer strong {
+            color: var(--gold-light);
+        }
+
+        @media (max-width: 640px) {
+            .hero {
+                padding: 40px 20px 28px;
+            }
+
+            .card {
+                padding: 22px;
+            }
+
+            .confirm-row {
+                flex-direction: column;
+            }
+
+            .confirm-row .btn {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="brand">
+            <div class="brand-mark">🐄</div>
+            <div>
+                <div class="brand-name" data-i18n="brandName">Pashu Pehchan</div>
+                <div class="brand-sub" data-i18n="brandSub">Breed Recognition Tool</div>
+            </div>
+        </div>
+        <div class="lang-toggle">
+            <button class="lang-btn active" data-lang="en" onclick="setLang('en')">EN</button>
+            <button class="lang-btn" data-lang="mr" onclick="setLang('mr')">मर</button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <span class="eyebrow" data-i18n="eyebrow">For Field Level Workers · BPA Support Tool</span>
+        <h1 data-i18n="heroTitle">Identify cattle & buffalo breeds instantly</h1>
+        <p data-i18n="heroDesc">Upload or capture a photo of the animal. Our AI model suggests the most likely breed to
+            help you register accurate data in the Bharat Pashudhan App.</p>
+        <div class="status-pill checking" id="statusPill"><span class="status-dot"></span><span id="statusText">Checking
+                AI server…</span></div>
+    </section>
+
+    <main>
+        <div class="card">
+            <div class="upload-zone" id="uploadZone">
+                <input type="file" id="fileInput" accept="image/*" capture="environment">
+                <div class="upload-icon">📷</div>
+                <div class="upload-title" data-i18n="uploadTitle">Upload or capture animal photo</div>
+                <div class="upload-hint" data-i18n="uploadHint">JPG or PNG · Clear side-view photo works best</div>
+            </div>
+
+            <div class="preview-wrap" id="previewWrap">
+                <img id="previewImg" src="" alt="Preview">
+            </div>
+
+            <div style="text-align:center;">
+                <button class="btn btn-primary" id="predictBtn" disabled onclick="runPrediction()">
+                    <span data-i18n="predictBtn">Identify Breed</span>
+                </button>
+            </div>
+
+            <div class="results" id="resultsBox">
+                <div class="results-label" data-i18n="resultsLabel">Suggested Breeds</div>
+                <div id="predictionList"></div>
+
+                <div class="confirm-row">
+                    <button class="btn btn-primary" onclick="confirmBreed()" style="margin-top:0;">
+                        <span data-i18n="confirmBtn">✓ Confirm & Save to BPA</span>
+                    </button>
+                    <button class="btn btn-secondary" onclick="resetUpload()">
+                        <span data-i18n="retryBtn">Try Another Photo</span>
+                    </button>
+                </div>
+
+                <div class="demo-note" id="demoNote" style="display:none;">
+                    <span>⚠️</span>
+                    <span data-i18n="demoNote">Demo mode: the AI server is not reachable, so these results are simulated
+                        and NOT real predictions.</span>
+                </div>
+            </div>
+            <div class="error-box" id="errorBox"></div>
+        </div>
+
+        <h2 class="section-title" data-i18n="dbTitle">Breed Database</h2>
+        <p class="section-desc" data-i18n="dbDesc">Reference information for common Indian cattle and buffalo breeds.
+        </p>
+        <div class="breed-grid" id="breedGrid"></div>
+    </main>
+
+    <footer>
+        <span data-i18n="footerText">Built to support the Ministry of Fisheries, Animal Husbandry & Dairying —</span>
+        <strong data-i18n="footerBrand"> Bharat Pashudhan App integration</strong>
+    </footer>
+
+    <script>
+        // ---------------------------------------------------------------------
+        // Translations
+        // ---------------------------------------------------------------------
+        const translations = {
+            en: {
+                brandName: "Pashu Pehchan", brandSub: "Breed Recognition Tool",
+                eyebrow: "For Field Level Workers · BPA Support Tool",
+                heroTitle: "Identify cattle & buffalo breeds instantly",
+                heroDesc: "Upload or capture a photo of the animal. Our AI model suggests the most likely breed to help you register accurate data in the Bharat Pashudhan App.",
+                uploadTitle: "Upload or capture animal photo",
+                uploadHint: "JPG or PNG · Clear side-view photo works best",
+                predictBtn: "Identify Breed",
+                resultsLabel: "Suggested Breeds",
+                confirmBtn: "✓ Confirm & Save to BPA",
+                retryBtn: "Try Another Photo",
+                demoNote: "Demo mode: the AI server is not reachable, so these results are simulated and NOT real predictions.",
+                statusChecking: "Checking AI server…", statusLive: "AI server connected", statusDemo: "Demo mode (AI server offline)",
+                analyzing: "Analyzing...", lowConf: "The model is not confident. Please check the animal carefully or take a clearer side-view photo before confirming.",
+                errBadFile: "This file could not be read as an image. Please try another photo.",
+                errTooBig: "Image is too large (max 10 MB). Please use a smaller photo.",
+                errGeneric: "Something went wrong. Please try again.",
+                dbTitle: "Breed Database",
+                dbDesc: "Reference information for common Indian cattle and buffalo breeds.",
+                footerText: "Built to support the Ministry of Fisheries, Animal Husbandry & Dairying —",
+                footerBrand: " Bharat Pashudhan App integration",
+                confirmedAlert: "Breed confirmed and saved (demo — connect BPA API to make this live)."
+            },
+            mr: {
+                brandName: "पशु ओळख", brandSub: "जात ओळख साधन",
+                eyebrow: "क्षेत्रीय कर्मचाऱ्यांसाठी · BPA सहाय्यक साधन",
+                heroTitle: "गाई व म्हशींच्या जाती लगेच ओळखा",
+                heroDesc: "जनावराचा फोटो अपलोड करा किंवा काढा. आमचे AI मॉडेल भारत पशुधन ॲपमध्ये अचूक नोंदणी करण्यासाठी सर्वात योग्य जात सुचवते.",
+                uploadTitle: "जनावराचा फोटो अपलोड करा किंवा काढा",
+                uploadHint: "JPG किंवा PNG · स्पष्ट बाजूचा फोटो सर्वोत्तम",
+                predictBtn: "जात ओळखा",
+                resultsLabel: "सुचवलेल्या जाती",
+                confirmBtn: "✓ निश्चित करा व BPA मध्ये जतन करा",
+                retryBtn: "दुसरा फोटो वापरा",
+                demoNote: "डेमो मोड: AI सर्व्हर उपलब्ध नाही, त्यामुळे हे निकाल काल्पनिक आहेत, खरे अंदाज नाहीत.",
+                statusChecking: "AI सर्व्हर तपासत आहे…", statusLive: "AI सर्व्हर जोडलेला आहे", statusDemo: "डेमो मोड (AI सर्व्हर बंद)",
+                analyzing: "तपासत आहे...", lowConf: "मॉडेलला खात्री नाही. निश्चित करण्यापूर्वी जनावर काळजीपूर्वक तपासा किंवा बाजूचा स्पष्ट फोटो घ्या.",
+                errBadFile: "ही फाईल फोटो म्हणून वाचता आली नाही. कृपया दुसरा फोटो वापरा.",
+                errTooBig: "फोटो खूप मोठा आहे (कमाल 10 MB). कृपया लहान फोटो वापरा.",
+                errGeneric: "काहीतरी चुकले. कृपया पुन्हा प्रयत्न करा.",
+                dbTitle: "जात माहिती संच",
+                dbDesc: "सामान्य भारतीय गाई व म्हशींच्या जातींची माहिती.",
+                footerText: "मत्स्यव्यवसाय, पशुसंवर्धन व दुग्धव्यवसाय मंत्रालयासाठी तयार —",
+                footerBrand: " भारत पशुधन ॲप एकत्रीकरण",
+                confirmedAlert: "जात निश्चित करून जतन केली (डेमो — प्रत्यक्ष वापरासाठी BPA API जोडा)."
+            }
+        };
+
+        let currentLang = 'en';
+
+        function setLang(lang) {
+            currentLang = lang;
+            document.querySelectorAll('.lang-btn').forEach(b => b.classList.toggle('active', b.dataset.lang === lang));
+            document.documentElement.lang = lang;
+            document.body.classList.toggle('devanagari', lang === 'mr');
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if (translations[lang][key]) el.textContent = translations[lang][key];
+            });
+            renderBreedGrid();
+            const pill = document.getElementById('statusPill');
+            if (pill && pill.dataset.kind) setStatus(pill.dataset.kind);
+        }
+
+        // ---------------------------------------------------------------------
+        // Breed reference data (subset — full list comes from your backend's
+        // /breeds endpoint once connected)
+        // ---------------------------------------------------------------------
+        const breeds = [
+            {
+                name: "Gir", type: "cattle", origin: "Gujarat",
+                en: "Hardy dairy breed with curved horns, high milk yield, heat tolerant.",
+                mr: "वाकलेली शिंगे असलेली, जास्त दूध देणारी व उष्णता सहन करणारी दुभती जात."
+            },
+            {
+                name: "Sahiwal", type: "cattle", origin: "Punjab",
+                en: "One of India's best dairy breeds — high milk production, heat tolerant.",
+                mr: "भारतातील सर्वोत्तम दुभती जातींपैकी एक — जास्त दूध व उष्णता सहनशीलता."
+            },
+            {
+                name: "Tharparkar", type: "cattle", origin: "Rajasthan",
+                en: "Dual-purpose breed from the Thar desert, drought resistant.",
+                mr: "थर वाळवंटातील दुहेरी उपयोगी जात, दुष्काळ सहनशील."
+            },
+            {
+                name: "Murrah", type: "buffalo", origin: "Haryana",
+                en: "India's most popular dairy buffalo — very high milk yield and fat %.",
+                mr: "भारतातील सर्वात लोकप्रिय म्हैस जात — खूप जास्त दूध व फॅट प्रमाण."
+            },
+            {
+                name: "Jaffarabadi", type: "buffalo", origin: "Gujarat",
+                en: "Heaviest buffalo breed in India, large body, good milk yield.",
+                mr: "भारतातील सर्वात जड म्हैस जात, मोठे शरीर व चांगले दूध उत्पादन."
+            },
+            {
+                name: "Kankrej", type: "cattle", origin: "Gujarat/Rajasthan",
+                en: "Dual-purpose grey-white breed with strong draught capability.",
+                mr: "राखाडी-पांढऱ्या रंगाची दुहेरी उपयोगी, मजबूत शेतीकाम क्षमता."
+            },
+            {
+                name: "Surti", type: "buffalo", origin: "Gujarat",
+                en: "Medium-sized buffalo known for high-fat quality milk.",
+                mr: "जास्त फॅट असलेले दर्जेदार दूध देणारी मध्यम आकाराची म्हैस."
+            },
+            {
+                name: "Nagpuri", type: "buffalo", origin: "Maharashtra",
+                en: "Dual-purpose buffalo from Vidarbha, used for milk and draught.",
+                mr: "विदर्भातील दुहेरी उपयोगी म्हैस, दूध व शेतीकामासाठी वापरली जाते."
+            },
+        ];
+
+        // Breeds shown in the database section. Replaced by the full 73-breed list
+        // from the API (/breeds) as soon as the server is reachable.
+        let breedList = breeds.map(b => ({
+            name: b.name, display_name: b.name, type: b.type,
+            origin_states: [b.origin], description_en: b.en, description_mr: b.mr, verified: true
+        }));
+
+        function renderBreedGrid() {
+            const grid = document.getElementById('breedGrid');
+            grid.innerHTML = breedList.map(b => {
+                const t = b.type || 'unknown';
+                const desc = currentLang === 'mr' ? b.description_mr : b.description_en;
+                const origin = (b.origin_states || []).join(' / ');
+                return `
+    <div class="breed-card">
+      <div class="breed-card-top">
+        <h3>${b.display_name || b.name}</h3>
+        <span class="breed-tag ${t}">${t}</span>
+      </div>
+      ${origin ? `<div class="breed-origin">📍 ${origin}</div>` : ''}
+      <div class="breed-desc ${currentLang === 'mr' ? 'devanagari' : ''}">${desc || ''}</div>
+    </div>`;
+            }).join('');
+        }
+
+        // ---------------------------------------------------------------------
+        // Upload + prediction flow
+        // ---------------------------------------------------------------------
+        const fileInput = document.getElementById('fileInput');
+        const uploadZone = document.getElementById('uploadZone');
+        const previewWrap = document.getElementById('previewWrap');
+        const previewImg = document.getElementById('previewImg');
+        const predictBtn = document.getElementById('predictBtn');
+        const resultsBox = document.getElementById('resultsBox');
+        const predictionList = document.getElementById('predictionList');
+
+        fileInput.addEventListener('change', (e) => {
+            const file = e.target.files[0];
+            if (!file) return;
+            const reader = new FileReader();
+            reader.onload = (ev) => {
+                previewImg.src = ev.target.result;
+                previewWrap.style.display = 'block';
+                predictBtn.disabled = false;
+                resultsBox.style.display = 'none';
+            };
+            reader.readAsDataURL(file);
+        });
+
+        function resetUpload() {
+            errorBox.style.display = 'none';
+            fileInput.value = '';
+            previewWrap.style.display = 'none';
+            predictBtn.disabled = true;
+            resultsBox.style.display = 'none';
+        }
+
+        // ---------------------------------------------------------------------
+        // API connection
+        // Change API_BASE to your deployed backend URL (e.g. https://your-app.onrender.com).
+        // You can also override it without editing code:  index.html?api=https://host
+        // ---------------------------------------------------------------------
+        const API_BASE = new URLSearchParams(location.search).get('api') || 'http://localhost:8000';
+        let apiLive = false;
+        const errorBox = document.getElementById('errorBox');
+        const demoNote = document.getElementById('demoNote');
+
+        function setStatus(kind) {
+            const pill = document.getElementById('statusPill');
+            pill.className = 'status-pill ' + kind;
+            const key = { live: 'statusLive', demo: 'statusDemo', checking: 'statusChecking' }[kind];
+            document.getElementById('statusText').textContent = translations[currentLang][key];
+            pill.dataset.kind = kind;
+        }
+
+        async function checkApi() {
+            setStatus('checking');
+            try {
+                const h = await fetch(API_BASE + '/health', { signal: AbortSignal.timeout(4000) });
+                apiLive = h.ok && (await h.json()).model_loaded === true;
+            } catch (e) { apiLive = false; }
+            setStatus(apiLive ? 'live' : 'demo');
+            if (apiLive) {
+                try {
+                    const r = await fetch(API_BASE + '/breeds');
+                    breedList = (await r.json()).breeds;
+                    renderBreedGrid();
+                } catch (e) { /* keep static list */ }
+            }
+        }
+
+        function showError(key) {
+            errorBox.textContent = translations[currentLang][key];
+            errorBox.style.display = 'block';
+        }
+
+        async function runPrediction() {
+            errorBox.style.display = 'none';
+            predictBtn.disabled = true;
+            predictBtn.textContent = translations[currentLang].analyzing;
+            try {
+                if (apiLive) {
+                    const fd = new FormData();
+                    fd.append('file', fileInput.files[0]);
+                    const res = await fetch(API_BASE + '/predict', { method: 'POST', body: fd });
+                    if (res.status === 400) { showError('errBadFile'); return; }
+                    if (res.status === 413) { showError('errTooBig'); return; }
+                    if (!res.ok) { showError('errGeneric'); return; }
+                    const data = await res.json();
+                    demoNote.style.display = 'none';
+                    showPredictions(data.predictions, data.needs_review);
+                } else {
+                    // Offline fallback: clearly labelled simulation, never presented as real.
+                    await new Promise(r => setTimeout(r, 700));
+                    const picks = [...breedList].sort(() => Math.random() - 0.5).slice(0, 3);
+                    const conf = [(60 + Math.random() * 25), (15 + Math.random() * 15), (5 + Math.random() * 10)];
+                    showPredictions(picks.map((b, i) => ({ breed: b.name, type: b.type, confidence: conf[i] })), false);
+                    demoNote.style.display = 'flex';
+                }
+            } catch (e) {
+                showError('errGeneric');
+            } finally {
+                predictBtn.disabled = false;
+                predictBtn.textContent = translations[currentLang].predictBtn;
+            }
+        }
+
+        function showPredictions(predictions, needsReview) {
+            const warn = needsReview ? `<div class="review-warn">⚠️ ${translations[currentLang].lowConf}</div>` : '';
+            predictionList.innerHTML = warn + predictions.map((p, i) => `
+    <div class="prediction-row ${i === 0 ? 'top' : ''}">
+      <div class="rank-badge">${i + 1}</div>
+      <div class="prediction-info">
+        <div class="prediction-name">${p.breed.replace(/_/g, ' ')}</div>
+        <div class="prediction-type">${p.type || ''}</div>
+        <div class="confidence-bar-bg"><div class="confidence-bar-fill" style="width:${Number(p.confidence).toFixed(1)}%"></div></div>
+      </div>
+      <div class="confidence-pct">${Number(p.confidence).toFixed(1)}%</div>
+    </div>
+  `).join('');
+            resultsBox.style.display = 'block';
+        }
+
+        function confirmBreed() {
+            alert(translations[currentLang].confirmedAlert);
+        }
+
+        // Init
+        renderBreedGrid();
+        checkApi();
+    </script>
+
+</body>
+
+</html>

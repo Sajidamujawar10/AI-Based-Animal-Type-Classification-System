@@ -1,0 +1,79 @@
+precision    recall  f1-score   support
+
+         Alambadi      0.750     0.643     0.692        14
+       Amritmahal      0.391     0.474     0.429        19
+   Ayrshire_Cross      0.767     0.676     0.719        34
+          Bachaur      0.375     0.429     0.400        14
+            Badri      0.533     0.571     0.552        14
+            Banni      0.278     0.435     0.339        23
+           Bargur      0.591     0.406     0.481        32
+        Bhadawari      0.417     0.185     0.256        27
+           Bhelai      1.000     0.944     0.971        18
+Brown_Swiss_Cross      0.778     0.636     0.700        33
+    Chhattisgarhi      0.400     0.533     0.457        15
+          Chilika      0.346     0.600     0.439        15
+            Dagri      0.333     0.167     0.222        12
+            Dangi      0.826     0.760     0.792        25
+            Deoni      0.769     0.667     0.714        15
+        Gangatiri      0.235     0.250     0.242        16
+           Gaolao      1.000     0.364     0.533        11
+         Ghumsari      0.500     0.476     0.488        21
+              Gir      0.600     0.551     0.574        49
+            Gojri      0.317     0.591     0.413        22
+   Guernsey_Cross      0.550     0.647     0.595        17
+         HF_Cross      0.771     0.787     0.779        47
+         Hallikar      0.486     0.643     0.554        28
+          Hariana      0.375     0.632     0.471        19
+ Himachali_Pahari      0.583     0.667     0.622        21
+      Jaffarabadi      0.765     0.441     0.559        59
+     Jersey_Cross      0.607     0.607     0.607        28
+        Kalahandi      0.000     0.000     0.000         5
+         Kangayam      0.750     0.462     0.571        26
+          Kankrej      0.531     0.654     0.586        26
+         Kasargod      0.385     0.385     0.385        13
+         Kenkatha      0.864     0.633     0.731        30
+          Khariar      0.625     0.526     0.571        19
+        Kherigarh      0.250     0.143     0.182        21
+         Khillari      0.353     0.429     0.387        14
+    Konkan_Kapila      0.643     0.529     0.581        17
+           Kosali      0.650     0.765     0.703        17
+   Krishna_Valley      0.000     0.000     0.000        16
+          Ladakhi      0.647     0.647     0.647        17
+          Lakhimi      0.600     0.750     0.667        12
+             Luit      0.000     0.000     0.000         7
+     Malnad_Gidda      0.526     0.667     0.588        15
+            Malvi      0.367     0.611     0.458        18
+       Marathwadi      0.348     0.444     0.390        18
+          Mehsana      0.211     0.632     0.316        19
+           Mewati      0.839     0.812     0.825        32
+             Motu      0.593     0.696     0.640        23
+           Murrah      0.405     0.278     0.330        54
+           Nagori      0.571     0.333     0.421        36
+          Nagpuri      0.312     0.233     0.267        43
+             Nari      0.714     0.476     0.571        21
+        Nili_Ravi      0.433     0.419     0.426        31
+           Nimari      0.444     0.615     0.516        13
+           Ongole      0.462     0.667     0.545        27
+      Pandharpuri      0.375     0.500     0.429        18
+     Poda_Thirupu      0.800     0.960     0.873        25
+           Ponwar      0.885     0.821     0.852        28
+        Pulikulam      0.833     0.556     0.667        18
+         Punganur      0.895     0.850     0.872        20
+           Purnea      0.893     0.962     0.926        26
+            Rathi      0.706     0.600     0.649        20
+   Red_Dane_Cross      0.571     0.333     0.421        24
+     Red_Kandhari      0.594     0.792     0.679        24
+       Red_Sindhi      0.250     0.318     0.280        22
+          Sahiwal      0.629     0.600     0.614        65
+    Shweta_Kapila      0.405     0.586     0.479        29
+             Siri      0.786     0.880     0.830        25
+            Surti      0.360     0.273     0.310        33
+       Tharparkar      0.467     0.452     0.459        31
+           Thutho      0.792     0.826     0.809        23
+             Toda      0.708     0.548     0.618        31
+       Umblachery      0.690     0.690     0.690        29
+           Vechur      0.700     0.700     0.700        20
+
+         accuracy                          0.555      1749
+        macro avg      0.551     0.546     0.535      1749
+     weighted avg      0.577     0.555     0.553      1749

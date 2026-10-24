@@ -1,0 +1,727 @@
+{
+  "Alambadi": {
+    "display_name": "Alambadi",
+    "type": "cattle",
+    "origin_states": [
+      "Tamil Nadu"
+    ],
+    "description_en": "A draught (farm work) cattle breed from Tamil Nadu.",
+    "description_mr": "तमिळनाडू भागातील शेतीकामासाठी (ओढकाम करणारी) गाय/बैल जात.",
+    "verified": true
+  },
+  "Amritmahal": {
+    "display_name": "Amritmahal",
+    "type": "cattle",
+    "origin_states": [
+      "Karnataka"
+    ],
+    "description_en": "A draught (farm work) cattle breed from Karnataka.",
+    "description_mr": "कर्नाटक भागातील शेतीकामासाठी (ओढकाम करणारी) गाय/बैल जात.",
+    "verified": true
+  },
+  "Ayrshire_Cross": {
+    "display_name": "Ayrshire Cross",
+    "type": "cattle",
+    "origin_states": [],
+    "description_en": "A cattle crossbred with exotic blood. Crosses vary widely in appearance.",
+    "description_mr": "विदेशी रक्ताची संकरित गाय/बैल जात. संकरित जनावरांचे स्वरूप वेगवेगळे असू शकते.",
+    "verified": true
+  },
+  "Bachaur": {
+    "display_name": "Bachaur",
+    "type": "cattle",
+    "origin_states": [
+      "Bihar"
+    ],
+    "description_en": "A cattle breed from Bihar.",
+    "description_mr": "बिहार भागातील गाय/बैल जात.",
+    "verified": false
+  },
+  "Badri": {
+    "display_name": "Badri",
+    "type": "cattle",
+    "origin_states": [
+      "Uttarakhand"
+    ],
+    "description_en": "A hill-region cattle breed from Uttarakhand.",
+    "description_mr": "उत्तराखंड भागातील डोंगराळ भागातील गाय/बैल जात.",
+    "verified": true
+  },
+  "Banni": {
+    "display_name": "Banni",
+    "type": "buffalo",
+    "origin_states": [
+      "Gujarat"
+    ],
+    "description_en": "A dairy buffalo breed from Gujarat.",
+    "description_mr": "गुजरात भागातील दुभती म्हैस जात.",
+    "verified": true
+  },
+  "Bargur": {
+    "display_name": "Bargur",
+    "type": "cattle",
+    "origin_states": [
+      "Tamil Nadu"
+    ],
+    "description_en": "A draught (farm work) cattle breed from Tamil Nadu.",
+    "description_mr": "तमिळनाडू भागातील शेतीकामासाठी (ओढकाम करणारी) गाय/बैल जात.",
+    "verified": true
+  },
+  "Bhadawari": {
+    "display_name": "Bhadawari",
+    "type": "buffalo",
+    "origin_states": [
+      "Uttar Pradesh",
+      "Madhya Pradesh"
+    ],
+    "description_en": "A dairy buffalo breed from Uttar Pradesh / Madhya Pradesh.",
+    "description_mr": "उत्तर प्रदेश / मध्य प्रदेश भागातील दुभती म्हैस जात.",
+    "verified": true
+  },
+  "Bhelai": {
+    "display_name": "Bhelai",
+    "type": null,
+    "origin_states": [],
+    "description_en": "Details not yet confirmed. Verify this breed against the ICAR-NBAGR registry before relying on it.",
+    "description_mr": "माहिती अजून निश्चित नाही. वापरण्यापूर्वी ICAR-NBAGR नोंदणीवरून जात तपासा.",
+    "verified": false
+  },
+  "Brown_Swiss_Cross": {
+    "display_name": "Brown Swiss Cross",
+    "type": "cattle",
+    "origin_states": [],
+    "description_en": "A cattle crossbred with exotic blood. Crosses vary widely in appearance.",
+    "description_mr": "विदेशी रक्ताची संकरित गाय/बैल जात. संकरित जनावरांचे स्वरूप वेगवेगळे असू शकते.",
+    "verified": true
+  },
+  "Chhattisgarhi": {
+    "display_name": "Chhattisgarhi",
+    "type": "buffalo",
+    "origin_states": [
+      "Chhattisgarh"
+    ],
+    "description_en": "A buffalo breed from Chhattisgarh.",
+    "description_mr": "छत्तीसगड भागातील म्हैस जात.",
+    "verified": true
+  },
+  "Chilika": {
+    "display_name": "Chilika",
+    "type": "buffalo",
+    "origin_states": [
+      "Odisha"
+    ],
+    "description_en": "A buffalo breed from Odisha.",
+    "description_mr": "ओडिशा भागातील म्हैस जात.",
+    "verified": true
+  },
+  "Dagri": {
+    "display_name": "Dagri",
+    "type": null,
+    "origin_states": [],
+    "description_en": "Details not yet confirmed. Verify this breed against the ICAR-NBAGR registry before relying on it.",
+    "description_mr": "माहिती अजून निश्चित नाही. वापरण्यापूर्वी ICAR-NBAGR नोंदणीवरून जात तपासा.",
+    "verified": false
+  },
+  "Dangi": {
+    "display_name": "Dangi",
+    "type": "cattle",
+    "origin_states": [
+      "Maharashtra",
+      "Gujarat"
+    ],
+    "description_en": "A draught (farm work) cattle breed from Maharashtra / Gujarat.",
+    "description_mr": "महाराष्ट्र / गुजरात भागातील शेतीकामासाठी (ओढकाम करणारी) गाय/बैल जात.",
+    "verified": true
+  },
+  "Deoni": {
+    "display_name": "Deoni",
+    "type": "cattle",
+    "origin_states": [
+      "Maharashtra",
+      "Karnataka"
+    ],
+    "description_en": "A dual-purpose (milk and farm work) cattle breed from Maharashtra / Karnataka.",
+    "description_mr": "महाराष्ट्र / कर्नाटक भागातील दूध व शेतीकाम अशी दुहेरी उपयोगी गाय/बैल जात.",
+    "verified": true
+  },
+  "Gangatiri": {
+    "display_name": "Gangatiri",
+    "type": "cattle",
+    "origin_states": [
+      "Uttar Pradesh",
+      "Bihar"
+    ],
+    "description_en": "A dual-purpose (milk and farm work) cattle breed from Uttar Pradesh / Bihar.",
+    "description_mr": "उत्तर प्रदेश / बिहार भागातील दूध व शेतीकाम अशी दुहेरी उपयोगी गाय/बैल जात.",
+    "verified": false
+  },
+  "Gaolao": {
+    "display_name": "Gaolao",
+    "type": "cattle",
+    "origin_states": [
+      "Maharashtra",
+      "Madhya Pradesh"
+    ],
+    "description_en": "A dual-purpose (milk and farm work) cattle breed from Maharashtra / Madhya Pradesh.",
+    "description_mr": "महाराष्ट्र / मध्य प्रदेश भागातील दूध व शेतीकाम अशी दुहेरी उपयोगी गाय/बैल जात.",
+    "verified": true
+  },
+  "Ghumsari": {
+    "display_name": "Ghumsari",
+    "type": "cattle",
+    "origin_states": [
+      "Odisha"
+    ],
+    "description_en": "A cattle breed from Odisha.",
+    "description_mr": "ओडिशा भागातील गाय/बैल जात.",
+    "verified": true
+  },
+  "Gir": {
+    "display_name": "Gir",
+    "type": "cattle",
+    "origin_states": [
+      "Gujarat"
+    ],
+    "description_en": "A dairy cattle breed from Gujarat.",
+    "description_mr": "गुजरात भागातील दुभती गाय/बैल जात.",
+    "verified": true
+  },
+  "Gojri": {
+    "display_name": "Gojri",
+    "type": "buffalo",
+    "origin_states": [
+      "Punjab",
+      "Himachal Pradesh"
+    ],
+    "description_en": "A dairy buffalo breed from Punjab / Himachal Pradesh.",
+    "description_mr": "पंजाब / हिमाचल प्रदेश भागातील दुभती म्हैस जात.",
+    "verified": false
+  },
+  "Guernsey_Cross": {
+    "display_name": "Guernsey Cross",
+    "type": "cattle",
+    "origin_states": [],
+    "description_en": "A cattle crossbred with exotic blood. Crosses vary widely in appearance.",
+    "description_mr": "विदेशी रक्ताची संकरित गाय/बैल जात. संकरित जनावरांचे स्वरूप वेगवेगळे असू शकते.",
+    "verified": true
+  },
+  "HF_Cross": {
+    "display_name": "HF Cross",
+    "type": "cattle",
+    "origin_states": [],
+    "description_en": "A cattle crossbred with exotic blood. Crosses vary widely in appearance.",
+    "description_mr": "विदेशी रक्ताची संकरित गाय/बैल जात. संकरित जनावरांचे स्वरूप वेगवेगळे असू शकते.",
+    "verified": true
+  },
+  "Hallikar": {
+    "display_name": "Hallikar",
+    "type": "cattle",
+    "origin_states": [
+      "Karnataka"
+    ],
+    "description_en": "A draught (farm work) cattle breed from Karnataka.",
+    "description_mr": "कर्नाटक भागातील शेतीकामासाठी (ओढकाम करणारी) गाय/बैल जात.",
+    "verified": true
+  },
+  "Hariana": {
+    "display_name": "Hariana",
+    "type": "cattle",
+    "origin_states": [
+      "Haryana"
+    ],
+    "description_en": "A dual-purpose (milk and farm work) cattle breed from Haryana.",
+    "description_mr": "हरियाणा भागातील दूध व शेतीकाम अशी दुहेरी उपयोगी गाय/बैल जात.",
+    "verified": true
+  },
+  "Himachali_Pahari": {
+    "display_name": "Himachali Pahari",
+    "type": "cattle",
+    "origin_states": [
+      "Himachal Pradesh"
+    ],
+    "description_en": "A hill-region cattle breed from Himachal Pradesh.",
+    "description_mr": "हिमाचल प्रदेश भागातील डोंगराळ भागातील गाय/बैल जात.",
+    "verified": true
+  },
+  "Jaffarabadi": {
+    "display_name": "Jaffarabadi",
+    "type": "buffalo",
+    "origin_states": [
+      "Gujarat"
+    ],
+    "description_en": "A dairy buffalo breed from Gujarat.",
+    "description_mr": "गुजरात भागातील दुभती म्हैस जात.",
+    "verified": true
+  },
+  "Jersey_Cross": {
+    "display_name": "Jersey Cross",
+    "type": "cattle",
+    "origin_states": [],
+    "description_en": "A cattle crossbred with exotic blood. Crosses vary widely in appearance.",
+    "description_mr": "विदेशी रक्ताची संकरित गाय/बैल जात. संकरित जनावरांचे स्वरूप वेगवेगळे असू शकते.",
+    "verified": true
+  },
+  "Kalahandi": {
+    "display_name": "Kalahandi",
+    "type": "buffalo",
+    "origin_states": [
+      "Odisha"
+    ],
+    "description_en": "A buffalo breed from Odisha.",
+    "description_mr": "ओडिशा भागातील म्हैस जात.",
+    "verified": true
+  },
+  "Kangayam": {
+    "display_name": "Kangayam",
+    "type": "cattle",
+    "origin_states": [
+      "Tamil Nadu"
+    ],
+    "description_en": "A draught (farm work) cattle breed from Tamil Nadu.",
+    "description_mr": "तमिळनाडू भागातील शेतीकामासाठी (ओढकाम करणारी) गाय/बैल जात.",
+    "verified": true
+  },
+  "Kankrej": {
+    "display_name": "Kankrej",
+    "type": "cattle",
+    "origin_states": [
+      "Gujarat",
+      "Rajasthan"
+    ],
+    "description_en": "A dual-purpose (milk and farm work) cattle breed from Gujarat / Rajasthan.",
+    "description_mr": "गुजरात / राजस्थान भागातील दूध व शेतीकाम अशी दुहेरी उपयोगी गाय/बैल जात.",
+    "verified": true
+  },
+  "Kasargod": {
+    "display_name": "Kasargod",
+    "type": "cattle",
+    "origin_states": [
+      "Kerala"
+    ],
+    "description_en": "A small-bodied (dwarf) cattle breed from Kerala.",
+    "description_mr": "केरळ भागातील लहान आकाराची (बुटकी) गाय/बैल जात.",
+    "verified": true
+  },
+  "Kenkatha": {
+    "display_name": "Kenkatha",
+    "type": "cattle",
+    "origin_states": [
+      "Uttar Pradesh",
+      "Madhya Pradesh"
+    ],
+    "description_en": "A draught (farm work) cattle breed from Uttar Pradesh / Madhya Pradesh.",
+    "description_mr": "उत्तर प्रदेश / मध्य प्रदेश भागातील शेतीकामासाठी (ओढकाम करणारी) गाय/बैल जात.",
+    "verified": true
+  },
+  "Khariar": {
+    "display_name": "Khariar",
+    "type": "cattle",
+    "origin_states": [
+      "Odisha"
+    ],
+    "description_en": "A cattle breed from Odisha.",
+    "description_mr": "ओडिशा भागातील गाय/बैल जात.",
+    "verified": true
+  },
+  "Kherigarh": {
+    "display_name": "Kherigarh",
+    "type": "cattle",
+    "origin_states": [
+      "Uttar Pradesh"
+    ],
+    "description_en": "A draught (farm work) cattle breed from Uttar Pradesh.",
+    "description_mr": "उत्तर प्रदेश भागातील शेतीकामासाठी (ओढकाम करणारी) गाय/बैल जात.",
+    "verified": true
+  },
+  "Khillari": {
+    "display_name": "Khillari",
+    "type": "cattle",
+    "origin_states": [
+      "Maharashtra",
+      "Karnataka"
+    ],
+    "description_en": "A draught (farm work) cattle breed from Maharashtra / Karnataka.",
+    "description_mr": "महाराष्ट्र / कर्नाटक भागातील शेतीकामासाठी (ओढकाम करणारी) गाय/बैल जात.",
+    "verified": true
+  },
+  "Konkan_Kapila": {
+    "display_name": "Konkan Kapila",
+    "type": "cattle",
+    "origin_states": [
+      "Maharashtra",
+      "Goa"
+    ],
+    "description_en": "A cattle breed from Maharashtra / Goa.",
+    "description_mr": "महाराष्ट्र / गोवा भागातील गाय/बैल जात.",
+    "verified": true
+  },
+  "Kosali": {
+    "display_name": "Kosali",
+    "type": "cattle",
+    "origin_states": [
+      "Chhattisgarh"
+    ],
+    "description_en": "A cattle breed from Chhattisgarh.",
+    "description_mr": "छत्तीसगड भागातील गाय/बैल जात.",
+    "verified": true
+  },
+  "Krishna_Valley": {
+    "display_name": "Krishna Valley",
+    "type": "cattle",
+    "origin_states": [
+      "Karnataka",
+      "Maharashtra"
+    ],
+    "description_en": "A draught (farm work) cattle breed from Karnataka / Maharashtra.",
+    "description_mr": "कर्नाटक / महाराष्ट्र भागातील शेतीकामासाठी (ओढकाम करणारी) गाय/बैल जात.",
+    "verified": true
+  },
+  "Ladakhi": {
+    "display_name": "Ladakhi",
+    "type": "cattle",
+    "origin_states": [
+      "Ladakh"
+    ],
+    "description_en": "A hill-region cattle breed from Ladakh.",
+    "description_mr": "लडाख भागातील डोंगराळ भागातील गाय/बैल जात.",
+    "verified": true
+  },
+  "Lakhimi": {
+    "display_name": "Lakhimi",
+    "type": "cattle",
+    "origin_states": [
+      "Assam"
+    ],
+    "description_en": "A cattle breed from Assam.",
+    "description_mr": "आसाम भागातील गाय/बैल जात.",
+    "verified": true
+  },
+  "Luit": {
+    "display_name": "Luit",
+    "type": "buffalo",
+    "origin_states": [
+      "Assam"
+    ],
+    "description_en": "A swamp-type buffalo breed from Assam.",
+    "description_mr": "आसाम भागातील दलदलीच्या भागातील म्हैस जात.",
+    "verified": true
+  },
+  "Malnad_Gidda": {
+    "display_name": "Malnad Gidda",
+    "type": "cattle",
+    "origin_states": [
+      "Karnataka"
+    ],
+    "description_en": "A small-bodied (dwarf) cattle breed from Karnataka.",
+    "description_mr": "कर्नाटक भागातील लहान आकाराची (बुटकी) गाय/बैल जात.",
+    "verified": true
+  },
+  "Malvi": {
+    "display_name": "Malvi",
+    "type": "cattle",
+    "origin_states": [
+      "Madhya Pradesh"
+    ],
+    "description_en": "A draught (farm work) cattle breed from Madhya Pradesh.",
+    "description_mr": "मध्य प्रदेश भागातील शेतीकामासाठी (ओढकाम करणारी) गाय/बैल जात.",
+    "verified": true
+  },
+  "Marathwadi": {
+    "display_name": "Marathwadi",
+    "type": "buffalo",
+    "origin_states": [
+      "Maharashtra"
+    ],
+    "description_en": "A dairy buffalo breed from Maharashtra.",
+    "description_mr": "महाराष्ट्र भागातील दुभती म्हैस जात.",
+    "verified": true
+  },
+  "Mehsana": {
+    "display_name": "Mehsana",
+    "type": "buffalo",
+    "origin_states": [
+      "Gujarat"
+    ],
+    "description_en": "A dairy buffalo breed from Gujarat.",
+    "description_mr": "गुजरात भागातील दुभती म्हैस जात.",
+    "verified": true
+  },
+  "Mewati": {
+    "display_name": "Mewati",
+    "type": "cattle",
+    "origin_states": [
+      "Rajasthan",
+      "Haryana"
+    ],
+    "description_en": "A dual-purpose (milk and farm work) cattle breed from Rajasthan / Haryana.",
+    "description_mr": "राजस्थान / हरियाणा भागातील दूध व शेतीकाम अशी दुहेरी उपयोगी गाय/बैल जात.",
+    "verified": true
+  },
+  "Motu": {
+    "display_name": "Motu",
+    "type": null,
+    "origin_states": [],
+    "description_en": "Details not yet confirmed. Verify this breed against the ICAR-NBAGR registry before relying on it.",
+    "description_mr": "माहिती अजून निश्चित नाही. वापरण्यापूर्वी ICAR-NBAGR नोंदणीवरून जात तपासा.",
+    "verified": false
+  },
+  "Murrah": {
+    "display_name": "Murrah",
+    "type": "buffalo",
+    "origin_states": [
+      "Haryana"
+    ],
+    "description_en": "A dairy buffalo breed from Haryana.",
+    "description_mr": "हरियाणा भागातील दुभती म्हैस जात.",
+    "verified": true
+  },
+  "Nagori": {
+    "display_name": "Nagori",
+    "type": "cattle",
+    "origin_states": [
+      "Rajasthan"
+    ],
+    "description_en": "A draught (farm work) cattle breed from Rajasthan.",
+    "description_mr": "राजस्थान भागातील शेतीकामासाठी (ओढकाम करणारी) गाय/बैल जात.",
+    "verified": true
+  },
+  "Nagpuri": {
+    "display_name": "Nagpuri",
+    "type": "buffalo",
+    "origin_states": [
+      "Maharashtra"
+    ],
+    "description_en": "A dual-purpose (milk and farm work) buffalo breed from Maharashtra.",
+    "description_mr": "महाराष्ट्र भागातील दूध व शेतीकाम अशी दुहेरी उपयोगी म्हैस जात.",
+    "verified": true
+  },
+  "Nari": {
+    "display_name": "Nari",
+    "type": "cattle",
+    "origin_states": [
+      "Rajasthan",
+      "Gujarat"
+    ],
+    "description_en": "A dual-purpose (milk and farm work) cattle breed from Rajasthan / Gujarat.",
+    "description_mr": "राजस्थान / गुजरात भागातील दूध व शेतीकाम अशी दुहेरी उपयोगी गाय/बैल जात.",
+    "verified": true
+  },
+  "Nili_Ravi": {
+    "display_name": "Nili Ravi",
+    "type": "buffalo",
+    "origin_states": [
+      "Punjab"
+    ],
+    "description_en": "A dairy buffalo breed from Punjab.",
+    "description_mr": "पंजाब भागातील दुभती म्हैस जात.",
+    "verified": true
+  },
+  "Nimari": {
+    "display_name": "Nimari",
+    "type": "cattle",
+    "origin_states": [
+      "Madhya Pradesh"
+    ],
+    "description_en": "A dual-purpose (milk and farm work) cattle breed from Madhya Pradesh.",
+    "description_mr": "मध्य प्रदेश भागातील दूध व शेतीकाम अशी दुहेरी उपयोगी गाय/बैल जात.",
+    "verified": true
+  },
+  "Ongole": {
+    "display_name": "Ongole",
+    "type": "cattle",
+    "origin_states": [
+      "Andhra Pradesh"
+    ],
+    "description_en": "A dual-purpose (milk and farm work) cattle breed from Andhra Pradesh.",
+    "description_mr": "आंध्र प्रदेश भागातील दूध व शेतीकाम अशी दुहेरी उपयोगी गाय/बैल जात.",
+    "verified": true
+  },
+  "Pandharpuri": {
+    "display_name": "Pandharpuri",
+    "type": "buffalo",
+    "origin_states": [
+      "Maharashtra"
+    ],
+    "description_en": "A dairy buffalo breed from Maharashtra.",
+    "description_mr": "महाराष्ट्र भागातील दुभती म्हैस जात.",
+    "verified": true
+  },
+  "Poda_Thirupu": {
+    "display_name": "Poda Thirupu",
+    "type": "cattle",
+    "origin_states": [
+      "Telangana"
+    ],
+    "description_en": "A cattle breed from Telangana.",
+    "description_mr": "तेलंगणा भागातील गाय/बैल जात.",
+    "verified": true
+  },
+  "Ponwar": {
+    "display_name": "Ponwar",
+    "type": "cattle",
+    "origin_states": [
+      "Uttar Pradesh"
+    ],
+    "description_en": "A draught (farm work) cattle breed from Uttar Pradesh.",
+    "description_mr": "उत्तर प्रदेश भागातील शेतीकामासाठी (ओढकाम करणारी) गाय/बैल जात.",
+    "verified": true
+  },
+  "Pulikulam": {
+    "display_name": "Pulikulam",
+    "type": "cattle",
+    "origin_states": [
+      "Tamil Nadu"
+    ],
+    "description_en": "A draught (farm work) cattle breed from Tamil Nadu.",
+    "description_mr": "तमिळनाडू भागातील शेतीकामासाठी (ओढकाम करणारी) गाय/बैल जात.",
+    "verified": true
+  },
+  "Punganur": {
+    "display_name": "Punganur",
+    "type": "cattle",
+    "origin_states": [
+      "Andhra Pradesh"
+    ],
+    "description_en": "A small-bodied (dwarf) cattle breed from Andhra Pradesh.",
+    "description_mr": "आंध्र प्रदेश भागातील लहान आकाराची (बुटकी) गाय/बैल जात.",
+    "verified": true
+  },
+  "Purnea": {
+    "display_name": "Purnea",
+    "type": "cattle",
+    "origin_states": [
+      "Bihar"
+    ],
+    "description_en": "A cattle breed from Bihar.",
+    "description_mr": "बिहार भागातील गाय/बैल जात.",
+    "verified": true
+  },
+  "Rathi": {
+    "display_name": "Rathi",
+    "type": "cattle",
+    "origin_states": [
+      "Rajasthan"
+    ],
+    "description_en": "A dairy cattle breed from Rajasthan.",
+    "description_mr": "राजस्थान भागातील दुभती गाय/बैल जात.",
+    "verified": true
+  },
+  "Red_Dane_Cross": {
+    "display_name": "Red Dane Cross",
+    "type": "cattle",
+    "origin_states": [],
+    "description_en": "A cattle crossbred with exotic blood. Crosses vary widely in appearance.",
+    "description_mr": "विदेशी रक्ताची संकरित गाय/बैल जात. संकरित जनावरांचे स्वरूप वेगवेगळे असू शकते.",
+    "verified": true
+  },
+  "Red_Kandhari": {
+    "display_name": "Red Kandhari",
+    "type": "cattle",
+    "origin_states": [
+      "Maharashtra"
+    ],
+    "description_en": "A draught (farm work) cattle breed from Maharashtra.",
+    "description_mr": "महाराष्ट्र भागातील शेतीकामासाठी (ओढकाम करणारी) गाय/बैल जात.",
+    "verified": true
+  },
+  "Red_Sindhi": {
+    "display_name": "Red Sindhi",
+    "type": "cattle",
+    "origin_states": [
+      "Sindh region"
+    ],
+    "description_en": "A dairy cattle breed from Sindh region.",
+    "description_mr": "सिंध प्रदेश भागातील दुभती गाय/बैल जात.",
+    "verified": true
+  },
+  "Sahiwal": {
+    "display_name": "Sahiwal",
+    "type": "cattle",
+    "origin_states": [
+      "Punjab"
+    ],
+    "description_en": "A dairy cattle breed from Punjab.",
+    "description_mr": "पंजाब भागातील दुभती गाय/बैल जात.",
+    "verified": true
+  },
+  "Shweta_Kapila": {
+    "display_name": "Shweta Kapila",
+    "type": "cattle",
+    "origin_states": [
+      "Goa"
+    ],
+    "description_en": "A cattle breed from Goa.",
+    "description_mr": "गोवा भागातील गाय/बैल जात.",
+    "verified": false
+  },
+  "Siri": {
+    "display_name": "Siri",
+    "type": "cattle",
+    "origin_states": [
+      "Sikkim"
+    ],
+    "description_en": "A hill-region cattle breed from Sikkim.",
+    "description_mr": "सिक्कीम भागातील डोंगराळ भागातील गाय/बैल जात.",
+    "verified": true
+  },
+  "Surti": {
+    "display_name": "Surti",
+    "type": "buffalo",
+    "origin_states": [
+      "Gujarat"
+    ],
+    "description_en": "A dairy buffalo breed from Gujarat.",
+    "description_mr": "गुजरात भागातील दुभती म्हैस जात.",
+    "verified": true
+  },
+  "Tharparkar": {
+    "display_name": "Tharparkar",
+    "type": "cattle",
+    "origin_states": [
+      "Rajasthan"
+    ],
+    "description_en": "A dual-purpose (milk and farm work) cattle breed from Rajasthan.",
+    "description_mr": "राजस्थान भागातील दूध व शेतीकाम अशी दुहेरी उपयोगी गाय/बैल जात.",
+    "verified": true
+  },
+  "Thutho": {
+    "display_name": "Thutho",
+    "type": "cattle",
+    "origin_states": [
+      "Nagaland"
+    ],
+    "description_en": "A cattle breed from Nagaland.",
+    "description_mr": "नागालँड भागातील गाय/बैल जात.",
+    "verified": true
+  },
+  "Toda": {
+    "display_name": "Toda",
+    "type": "buffalo",
+    "origin_states": [
+      "Tamil Nadu"
+    ],
+    "description_en": "A semi-wild buffalo breed from Tamil Nadu.",
+    "description_mr": "तमिळनाडू भागातील अर्ध-रानटी म्हैस जात.",
+    "verified": true
+  },
+  "Umblachery": {
+    "display_name": "Umblachery",
+    "type": "cattle",
+    "origin_states": [
+      "Tamil Nadu"
+    ],
+    "description_en": "A draught (farm work) cattle breed from Tamil Nadu.",
+    "description_mr": "तमिळनाडू भागातील शेतीकामासाठी (ओढकाम करणारी) गाय/बैल जात.",
+    "verified": true
+  },
+  "Vechur": {
+    "display_name": "Vechur",
+    "type": "cattle",
+    "origin_states": [
+      "Kerala"
+    ],
+    "description_en": "A small-bodied (dwarf) cattle breed from Kerala.",
+    "description_mr": "केरळ भागातील लहान आकाराची (बुटकी) गाय/बैल जात.",
+    "verified": true
+  }
+}

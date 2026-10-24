@@ -1,0 +1,29 @@
+import os, json, zipfile
+import numpy as np
+import tensorflow as tf
+
+M = '/kaggle/working/model/breed_model_final.keras'
+C = '/kaggle/working/model/class_names.json'
+
+# 1. File exists, has the right size, and is a valid .keras archive
+print("exists:", os.path.exists(M))
+print("size MB:", round(os.path.getsize(M) / 1e6, 1))          # expect ~31.7
+print("valid zip:", zipfile.is_zipfile(M))                      # expect True
+
+# 2. Loads, and its output matches the class list
+model = tf.keras.models.load_model(M)
+classes = json.load(open(C))
+print("output shape:", model.output_shape)                      # expect (None, 73)
+print("classes:", len(classes))                                 # expect 73
+assert model.output_shape[-1] == len(classes), "model and class_names.json are from different runs"
+
+# 3. Re-score on the test set (needs /kaggle/working/data/processed/test)
+test_dir = '/kaggle/working/data/processed/test'
+if os.path.exists(test_dir):
+    ds = tf.keras.utils.image_dataset_from_directory(
+        test_dir, image_size=(224, 224), batch_size=32, shuffle=False)
+    ds = ds.map(lambda x, y: (tf.keras.applications.mobilenet_v3.preprocess_input(x), y))
+    loss, acc = model.evaluate(ds, verbose=0)
+    print(f"test accuracy: {acc:.4f}")                          # expect ~0.555
+else:
+    print("test folder missing - session was reset; rerun data_preparation.py first")
