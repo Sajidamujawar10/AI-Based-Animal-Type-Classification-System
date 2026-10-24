@@ -91,3 +91,29 @@ def test_rejects_oversized(client):
     big = b"\xff" * (main.MAX_UPLOAD_BYTES + 1)
     r = client.post("/predict", files={"file": ("a.jpg", big, "image/jpeg")})
     assert r.status_code == 413
+
+
+def test_every_breed_has_usage_info(client):
+    for b in client.get("/breeds").json()["breeds"]:
+        u = b["usage"]
+        assert u["primary_use"] and u["purpose_en"] and u["purpose_mr"]
+        assert u["milk_en"] and u["milk_mr"] and u["farm_en"] and u["farm_mr"]
+        assert u["milk_level"] in {"high", "medium", "low", "very_low", "unknown"}
+        assert u["farm_work_level"] in {"high", "medium", "low", "very_low", "unknown"}
+
+
+def test_predict_includes_usage_for_each_breed(client):
+    r = client.post("/predict", files={"file": ("a.jpg", img_bytes(), "image/jpeg")})
+    for p in r.json()["predictions"]:
+        assert p["usage"]["purpose_en"] and p["usage"]["milk_mr"]
+
+
+def test_known_breed_purposes(client):
+    assert client.get("/breeds/Murrah").json()["usage"]["milk_level"] == "high"
+    assert client.get("/breeds/Khillari").json()["usage"]["farm_work_level"] == "high"
+    assert client.get("/breeds/HF_Cross").json()["usage"]["farm_work_level"] == "very_low"
+
+
+def test_root_serves_frontend(client):
+    r = client.get("/")
+    assert r.status_code == 200 and "text/html" in r.headers["content-type"]

@@ -7,7 +7,21 @@
     ],
     "description_en": "A draught (farm work) cattle breed from Tamil Nadu.",
     "description_mr": "तमिळनाडू भागातील शेतीकामासाठी (ओढकाम करणारी) गाय/बैल जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "draught",
+      "purpose_en": "FARM WORK (ploughing, carting)",
+      "purpose_mr": "शेतीकाम (नांगरणी, गाडी ओढणे)",
+      "milk_level": "low",
+      "farm_work_level": "high",
+      "milk_en": "Gives little milk - not a good choice if milk is your main goal.",
+      "milk_mr": "दूध कमी देते - दूध हा मुख्य उद्देश असेल तर योग्य नाही.",
+      "farm_en": "Hardy bullocks for ploughing and carting on hilly, forest-edge land (Tamil Nadu).",
+      "farm_mr": "डोंगराळ, जंगलाजवळच्या जमिनीवर नांगरणी व गाडी ओढण्यासाठी काटक बैल (तमिळनाडू).",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Amritmahal": {
     "display_name": "Amritmahal",
@@ -17,7 +31,21 @@
     ],
     "description_en": "A draught (farm work) cattle breed from Karnataka.",
     "description_mr": "कर्नाटक भागातील शेतीकामासाठी (ओढकाम करणारी) गाय/बैल जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "draught",
+      "purpose_en": "FARM WORK (ploughing, carting)",
+      "purpose_mr": "शेतीकाम (नांगरणी, गाडी ओढणे)",
+      "milk_level": "low",
+      "farm_work_level": "high",
+      "milk_en": "Gives little milk - not a good choice if milk is your main goal.",
+      "milk_mr": "दूध कमी देते - दूध हा मुख्य उद्देश असेल तर योग्य नाही.",
+      "farm_en": "Fast, strong bullocks for ploughing and transport on dry land (Karnataka).",
+      "farm_mr": "कोरड्या जमिनीवर नांगरणी व वाहतुकीसाठी वेगवान, ताकदवान बैल (कर्नाटक).",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Ayrshire_Cross": {
     "display_name": "Ayrshire Cross",
@@ -25,7 +53,21 @@
     "origin_states": [],
     "description_en": "A cattle crossbred with exotic blood. Crosses vary widely in appearance.",
     "description_mr": "विदेशी रक्ताची संकरित गाय/बैल जात. संकरित जनावरांचे स्वरूप वेगवेगळे असू शकते.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "crossbred_dairy",
+      "purpose_en": "HIGH MILK (needs good care)",
+      "purpose_mr": "जास्त दूध (चांगली काळजी आवश्यक)",
+      "milk_level": "high",
+      "farm_work_level": "very_low",
+      "milk_en": "High milk yield, more than most Indian breeds - but needs good feed, clean water, shade and regular vet care.",
+      "milk_mr": "जास्त दूध देते, बहुतेक भारतीय जातींपेक्षा जास्त - पण चांगला चारा, स्वच्छ पाणी, सावली व नियमित पशुवैद्यकीय काळजी आवश्यक.",
+      "farm_en": "Not used for farm work.",
+      "farm_mr": "शेतीकामासाठी वापरली जात नाही.",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Bachaur": {
     "display_name": "Bachaur",
@@ -35,7 +77,21 @@
     ],
     "description_en": "A cattle breed from Bihar.",
     "description_mr": "बिहार भागातील गाय/बैल जात.",
-    "verified": false
+    "verified": false,
+    "usage": {
+      "primary_use": "dual",
+      "purpose_en": "MILK + FARM WORK (dual purpose)",
+      "purpose_mr": "दूध + शेतीकाम (दुहेरी उपयोग)",
+      "milk_level": "low",
+      "farm_work_level": "medium",
+      "milk_en": "Gives little milk - not a good choice if milk is your main goal.",
+      "milk_mr": "दूध कमी देते - दूध हा मुख्य उद्देश असेल तर योग्य नाही.",
+      "farm_en": "Bullocks can do ploughing and carting - moderately strong.",
+      "farm_mr": "बैल नांगरणी व गाडी ओढण्याचे काम करू शकतात - मध्यम ताकद.",
+      "source_confidence": "check",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Badri": {
     "display_name": "Badri",
@@ -45,7 +101,21 @@
     ],
     "description_en": "A hill-region cattle breed from Uttarakhand.",
     "description_mr": "उत्तराखंड भागातील डोंगराळ भागातील गाय/बैल जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "hill",
+      "purpose_en": "hill farming - hardy, low milk, light work",
+      "purpose_mr": "डोंगराळ भागातील शेती - काटक, कमी दूध, हलकी कामे",
+      "milk_level": "low",
+      "farm_work_level": "medium",
+      "milk_en": "Gives little milk - not a good choice if milk is your main goal.",
+      "milk_mr": "दूध कमी देते - दूध हा मुख्य उद्देश असेल तर योग्य नाही.",
+      "farm_en": "Bullocks can do ploughing and carting - moderately strong.",
+      "farm_mr": "बैल नांगरणी व गाडी ओढण्याचे काम करू शकतात - मध्यम ताकद.",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Banni": {
     "display_name": "Banni",
@@ -55,7 +125,21 @@
     ],
     "description_en": "A dairy buffalo breed from Gujarat.",
     "description_mr": "गुजरात भागातील दुभती म्हैस जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "dairy",
+      "purpose_en": "MILK",
+      "purpose_mr": "दूध उत्पादन",
+      "milk_level": "high",
+      "farm_work_level": "low",
+      "milk_en": "Good milk producer - a suitable choice if your main goal is milk.",
+      "milk_mr": "चांगले दूध देणारी जात - दूध हा मुख्य उद्देश असेल तर योग्य निवड.",
+      "farm_en": "Mainly kept for milk. Male buffaloes can do slow, heavy jobs, but they are not the first choice for field work.",
+      "farm_mr": "प्रामुख्याने दुधासाठी पाळली जाते. नर रेडे हळू पण जड कामे करू शकतात, पण शेतीकामासाठी पहिली निवड नाही.",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Bargur": {
     "display_name": "Bargur",
@@ -65,7 +149,21 @@
     ],
     "description_en": "A draught (farm work) cattle breed from Tamil Nadu.",
     "description_mr": "तमिळनाडू भागातील शेतीकामासाठी (ओढकाम करणारी) गाय/बैल जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "draught",
+      "purpose_en": "FARM WORK (ploughing, carting)",
+      "purpose_mr": "शेतीकाम (नांगरणी, गाडी ओढणे)",
+      "milk_level": "low",
+      "farm_work_level": "high",
+      "milk_en": "Gives little milk - not a good choice if milk is your main goal.",
+      "milk_mr": "दूध कमी देते - दूध हा मुख्य उद्देश असेल तर योग्य नाही.",
+      "farm_en": "Fast bullocks for ploughing and transport in hill tracts (Tamil Nadu).",
+      "farm_mr": "डोंगराळ भागात नांगरणी व वाहतुकीसाठी वेगवान बैल (तमिळनाडू).",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Bhadawari": {
     "display_name": "Bhadawari",
@@ -76,7 +174,23 @@
     ],
     "description_en": "A dairy buffalo breed from Uttar Pradesh / Madhya Pradesh.",
     "description_mr": "उत्तर प्रदेश / मध्य प्रदेश भागातील दुभती म्हैस जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "dairy",
+      "purpose_en": "MILK",
+      "purpose_mr": "दूध उत्पादन",
+      "milk_level": "medium",
+      "farm_work_level": "low",
+      "milk_en": "Gives a moderate amount of milk - fine for a family and some sale, but not a commercial dairy breed.",
+      "milk_mr": "मध्यम प्रमाणात दूध देते - घरगुती वापर व थोड्या विक्रीसाठी पुरेसे, पण व्यावसायिक डेअरी जात नाही.",
+      "farm_en": "Mainly kept for milk. Male buffaloes can do slow, heavy jobs, but they are not the first choice for field work.",
+      "farm_mr": "प्रामुख्याने दुधासाठी पाळली जाते. नर रेडे हळू पण जड कामे करू शकतात, पण शेतीकामासाठी पहिली निवड नाही.",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा.",
+      "tip_en": "Gives less milk, but very high fat - good for ghee/butter.",
+      "tip_mr": "दूध कमी, पण फॅट खूप जास्त - तूप/लोणीसाठी चांगली."
+    }
   },
   "Bhelai": {
     "display_name": "Bhelai",
@@ -84,7 +198,21 @@
     "origin_states": [],
     "description_en": "Details not yet confirmed. Verify this breed against the ICAR-NBAGR registry before relying on it.",
     "description_mr": "माहिती अजून निश्चित नाही. वापरण्यापूर्वी ICAR-NBAGR नोंदणीवरून जात तपासा.",
-    "verified": false
+    "verified": false,
+    "usage": {
+      "primary_use": "unknown",
+      "purpose_en": "Details not confirmed",
+      "purpose_mr": "तपशील निश्चित नाहीत",
+      "milk_level": "unknown",
+      "farm_work_level": "unknown",
+      "milk_en": "Milk yield not confirmed for this breed.",
+      "milk_mr": "या जातीचे दूध उत्पादन निश्चित नाही.",
+      "farm_en": "Farm-work ability not confirmed.",
+      "farm_mr": "शेतीकामाची क्षमता निश्चित नाही.",
+      "source_confidence": "check",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Brown_Swiss_Cross": {
     "display_name": "Brown Swiss Cross",
@@ -92,7 +220,21 @@
     "origin_states": [],
     "description_en": "A cattle crossbred with exotic blood. Crosses vary widely in appearance.",
     "description_mr": "विदेशी रक्ताची संकरित गाय/बैल जात. संकरित जनावरांचे स्वरूप वेगवेगळे असू शकते.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "crossbred_dairy",
+      "purpose_en": "HIGH MILK (needs good care)",
+      "purpose_mr": "जास्त दूध (चांगली काळजी आवश्यक)",
+      "milk_level": "high",
+      "farm_work_level": "very_low",
+      "milk_en": "High milk yield, more than most Indian breeds - but needs good feed, clean water, shade and regular vet care.",
+      "milk_mr": "जास्त दूध देते, बहुतेक भारतीय जातींपेक्षा जास्त - पण चांगला चारा, स्वच्छ पाणी, सावली व नियमित पशुवैद्यकीय काळजी आवश्यक.",
+      "farm_en": "Not used for farm work.",
+      "farm_mr": "शेतीकामासाठी वापरली जात नाही.",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Chhattisgarhi": {
     "display_name": "Chhattisgarhi",
@@ -102,7 +244,21 @@
     ],
     "description_en": "A buffalo breed from Chhattisgarh.",
     "description_mr": "छत्तीसगड भागातील म्हैस जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "dual",
+      "purpose_en": "MILK + FARM WORK (dual purpose)",
+      "purpose_mr": "दूध + शेतीकाम (दुहेरी उपयोग)",
+      "milk_level": "low",
+      "farm_work_level": "medium",
+      "milk_en": "Gives little milk - not a good choice if milk is your main goal.",
+      "milk_mr": "दूध कमी देते - दूध हा मुख्य उद्देश असेल तर योग्य नाही.",
+      "farm_en": "Bullocks can do ploughing and carting - moderately strong.",
+      "farm_mr": "बैल नांगरणी व गाडी ओढण्याचे काम करू शकतात - मध्यम ताकद.",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Chilika": {
     "display_name": "Chilika",
@@ -112,7 +268,21 @@
     ],
     "description_en": "A buffalo breed from Odisha.",
     "description_mr": "ओडिशा भागातील म्हैस जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "dual",
+      "purpose_en": "MILK + FARM WORK (dual purpose)",
+      "purpose_mr": "दूध + शेतीकाम (दुहेरी उपयोग)",
+      "milk_level": "medium",
+      "farm_work_level": "medium",
+      "milk_en": "Gives a moderate amount of milk - fine for a family and some sale, but not a commercial dairy breed.",
+      "milk_mr": "मध्यम प्रमाणात दूध देते - घरगुती वापर व थोड्या विक्रीसाठी पुरेसे, पण व्यावसायिक डेअरी जात नाही.",
+      "farm_en": "Bullocks can do ploughing and carting - moderately strong.",
+      "farm_mr": "बैल नांगरणी व गाडी ओढण्याचे काम करू शकतात - मध्यम ताकद.",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Dagri": {
     "display_name": "Dagri",
@@ -120,7 +290,21 @@
     "origin_states": [],
     "description_en": "Details not yet confirmed. Verify this breed against the ICAR-NBAGR registry before relying on it.",
     "description_mr": "माहिती अजून निश्चित नाही. वापरण्यापूर्वी ICAR-NBAGR नोंदणीवरून जात तपासा.",
-    "verified": false
+    "verified": false,
+    "usage": {
+      "primary_use": "unknown",
+      "purpose_en": "Details not confirmed",
+      "purpose_mr": "तपशील निश्चित नाहीत",
+      "milk_level": "unknown",
+      "farm_work_level": "unknown",
+      "milk_en": "Milk yield not confirmed for this breed.",
+      "milk_mr": "या जातीचे दूध उत्पादन निश्चित नाही.",
+      "farm_en": "Farm-work ability not confirmed.",
+      "farm_mr": "शेतीकामाची क्षमता निश्चित नाही.",
+      "source_confidence": "check",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Dangi": {
     "display_name": "Dangi",
@@ -131,7 +315,21 @@
     ],
     "description_en": "A draught (farm work) cattle breed from Maharashtra / Gujarat.",
     "description_mr": "महाराष्ट्र / गुजरात भागातील शेतीकामासाठी (ओढकाम करणारी) गाय/बैल जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "draught",
+      "purpose_en": "FARM WORK (ploughing, carting)",
+      "purpose_mr": "शेतीकाम (नांगरणी, गाडी ओढणे)",
+      "milk_level": "low",
+      "farm_work_level": "high",
+      "milk_en": "Gives little milk - not a good choice if milk is your main goal.",
+      "milk_mr": "दूध कमी देते - दूध हा मुख्य उद्देश असेल तर योग्य नाही.",
+      "farm_en": "Suited to heavy-rainfall hilly areas - good for ploughing rice (paddy) fields (Nashik, Ahmednagar, Thane belt).",
+      "farm_mr": "जास्त पावसाच्या डोंगराळ भागात योग्य - भातशेतीतील नांगरणीसाठी चांगले (नाशिक, अहमदनगर, ठाणे पट्टा).",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Deoni": {
     "display_name": "Deoni",
@@ -142,7 +340,21 @@
     ],
     "description_en": "A dual-purpose (milk and farm work) cattle breed from Maharashtra / Karnataka.",
     "description_mr": "महाराष्ट्र / कर्नाटक भागातील दूध व शेतीकाम अशी दुहेरी उपयोगी गाय/बैल जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "dual",
+      "purpose_en": "MILK + FARM WORK (dual purpose)",
+      "purpose_mr": "दूध + शेतीकाम (दुहेरी उपयोग)",
+      "milk_level": "medium",
+      "farm_work_level": "high",
+      "milk_en": "Gives a moderate amount of milk - fine for a family and some sale, but not a commercial dairy breed.",
+      "milk_mr": "मध्यम प्रमाणात दूध देते - घरगुती वापर व थोड्या विक्रीसाठी पुरेसे, पण व्यावसायिक डेअरी जात नाही.",
+      "farm_en": "Bullocks suited to ploughing in the heavy black soils of Marathwada/North Karnataka; cows give moderate milk.",
+      "farm_mr": "मराठवाडा/उत्तर कर्नाटकच्या जड काळ्या जमिनीत नांगरणीसाठी योग्य बैल; गायी मध्यम दूध देतात.",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Gangatiri": {
     "display_name": "Gangatiri",
@@ -153,7 +365,21 @@
     ],
     "description_en": "A dual-purpose (milk and farm work) cattle breed from Uttar Pradesh / Bihar.",
     "description_mr": "उत्तर प्रदेश / बिहार भागातील दूध व शेतीकाम अशी दुहेरी उपयोगी गाय/बैल जात.",
-    "verified": false
+    "verified": false,
+    "usage": {
+      "primary_use": "dual",
+      "purpose_en": "MILK + FARM WORK (dual purpose)",
+      "purpose_mr": "दूध + शेतीकाम (दुहेरी उपयोग)",
+      "milk_level": "medium",
+      "farm_work_level": "high",
+      "milk_en": "Gives a moderate amount of milk - fine for a family and some sale, but not a commercial dairy breed.",
+      "milk_mr": "मध्यम प्रमाणात दूध देते - घरगुती वापर व थोड्या विक्रीसाठी पुरेसे, पण व्यावसायिक डेअरी जात नाही.",
+      "farm_en": "Strong bullocks - well suited to ploughing, carting and other farm work.",
+      "farm_mr": "ताकदवान बैल - नांगरणी, गाडी ओढणे व इतर शेतीकामांसाठी उत्तम.",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Gaolao": {
     "display_name": "Gaolao",
@@ -164,7 +390,21 @@
     ],
     "description_en": "A dual-purpose (milk and farm work) cattle breed from Maharashtra / Madhya Pradesh.",
     "description_mr": "महाराष्ट्र / मध्य प्रदेश भागातील दूध व शेतीकाम अशी दुहेरी उपयोगी गाय/बैल जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "dual",
+      "purpose_en": "MILK + FARM WORK (dual purpose)",
+      "purpose_mr": "दूध + शेतीकाम (दुहेरी उपयोग)",
+      "milk_level": "low",
+      "farm_work_level": "high",
+      "milk_en": "Gives little milk - not a good choice if milk is your main goal.",
+      "milk_mr": "दूध कमी देते - दूध हा मुख्य उद्देश असेल तर योग्य नाही.",
+      "farm_en": "Ploughing and carting in the Wardha/Nagpur belt; cows give little milk.",
+      "farm_mr": "वर्धा/नागपूर पट्ट्यात नांगरणी व गाडी ओढणे; गायी कमी दूध देतात.",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Ghumsari": {
     "display_name": "Ghumsari",
@@ -174,7 +414,21 @@
     ],
     "description_en": "A cattle breed from Odisha.",
     "description_mr": "ओडिशा भागातील गाय/बैल जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "dual",
+      "purpose_en": "MILK + FARM WORK (dual purpose)",
+      "purpose_mr": "दूध + शेतीकाम (दुहेरी उपयोग)",
+      "milk_level": "low",
+      "farm_work_level": "medium",
+      "milk_en": "Gives little milk - not a good choice if milk is your main goal.",
+      "milk_mr": "दूध कमी देते - दूध हा मुख्य उद्देश असेल तर योग्य नाही.",
+      "farm_en": "Bullocks can do ploughing and carting - moderately strong.",
+      "farm_mr": "बैल नांगरणी व गाडी ओढण्याचे काम करू शकतात - मध्यम ताकद.",
+      "source_confidence": "check",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Gir": {
     "display_name": "Gir",
@@ -184,7 +438,27 @@
     ],
     "description_en": "A dairy cattle breed from Gujarat.",
     "description_mr": "गुजरात भागातील दुभती गाय/बैल जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "dairy",
+      "purpose_en": "MILK",
+      "purpose_mr": "दूध उत्पादन",
+      "milk_level": "high",
+      "farm_work_level": "low",
+      "milk_en": "Good milk producer - a suitable choice if your main goal is milk.",
+      "milk_mr": "चांगले दूध देणारी जात - दूध हा मुख्य उद्देश असेल तर योग्य निवड.",
+      "farm_en": "Heat-tolerant milk breed (Gujarat); bullocks are not used much for farm work.",
+      "farm_mr": "उष्णता सहन करणारी दुभती जात (गुजरात); बैल शेतीकामासाठी फारसे वापरले जात नाहीत.",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा.",
+      "tip_en": "Good for small dairy farms in hot areas.",
+      "tip_mr": "उष्ण भागातील लहान डेअरी शेतांसाठी चांगली.",
+      "approx_milk_kg_per_lactation": [
+        1200,
+        1800
+      ]
+    }
   },
   "Gojri": {
     "display_name": "Gojri",
@@ -195,7 +469,21 @@
     ],
     "description_en": "A dairy buffalo breed from Punjab / Himachal Pradesh.",
     "description_mr": "पंजाब / हिमाचल प्रदेश भागातील दुभती म्हैस जात.",
-    "verified": false
+    "verified": false,
+    "usage": {
+      "primary_use": "dairy",
+      "purpose_en": "MILK",
+      "purpose_mr": "दूध उत्पादन",
+      "milk_level": "medium",
+      "farm_work_level": "low",
+      "milk_en": "Gives a moderate amount of milk - fine for a family and some sale, but not a commercial dairy breed.",
+      "milk_mr": "मध्यम प्रमाणात दूध देते - घरगुती वापर व थोड्या विक्रीसाठी पुरेसे, पण व्यावसायिक डेअरी जात नाही.",
+      "farm_en": "Mainly kept for milk. Male buffaloes can do slow, heavy jobs, but they are not the first choice for field work.",
+      "farm_mr": "प्रामुख्याने दुधासाठी पाळली जाते. नर रेडे हळू पण जड कामे करू शकतात, पण शेतीकामासाठी पहिली निवड नाही.",
+      "source_confidence": "check",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Guernsey_Cross": {
     "display_name": "Guernsey Cross",
@@ -203,7 +491,21 @@
     "origin_states": [],
     "description_en": "A cattle crossbred with exotic blood. Crosses vary widely in appearance.",
     "description_mr": "विदेशी रक्ताची संकरित गाय/बैल जात. संकरित जनावरांचे स्वरूप वेगवेगळे असू शकते.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "crossbred_dairy",
+      "purpose_en": "HIGH MILK (needs good care)",
+      "purpose_mr": "जास्त दूध (चांगली काळजी आवश्यक)",
+      "milk_level": "high",
+      "farm_work_level": "very_low",
+      "milk_en": "High milk yield, more than most Indian breeds - but needs good feed, clean water, shade and regular vet care.",
+      "milk_mr": "जास्त दूध देते, बहुतेक भारतीय जातींपेक्षा जास्त - पण चांगला चारा, स्वच्छ पाणी, सावली व नियमित पशुवैद्यकीय काळजी आवश्यक.",
+      "farm_en": "Not used for farm work.",
+      "farm_mr": "शेतीकामासाठी वापरली जात नाही.",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "HF_Cross": {
     "display_name": "HF Cross",
@@ -211,7 +513,27 @@
     "origin_states": [],
     "description_en": "A cattle crossbred with exotic blood. Crosses vary widely in appearance.",
     "description_mr": "विदेशी रक्ताची संकरित गाय/बैल जात. संकरित जनावरांचे स्वरूप वेगवेगळे असू शकते.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "crossbred_dairy",
+      "purpose_en": "HIGH MILK (needs good care)",
+      "purpose_mr": "जास्त दूध (चांगली काळजी आवश्यक)",
+      "milk_level": "high",
+      "farm_work_level": "very_low",
+      "milk_en": "High milk yield, more than most Indian breeds - but needs good feed, clean water, shade and regular vet care.",
+      "milk_mr": "जास्त दूध देते, बहुतेक भारतीय जातींपेक्षा जास्त - पण चांगला चारा, स्वच्छ पाणी, सावली व नियमित पशुवैद्यकीय काळजी आवश्यक.",
+      "farm_en": "Not used for farm work.",
+      "farm_mr": "शेतीकामासाठी वापरली जात नाही.",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा.",
+      "tip_en": "Holstein Friesian crosses give the most milk, but suffer in heat - provide shade and water.",
+      "tip_mr": "होल्स्टिन फ्रिजियन संकरित गायी सर्वाधिक दूध देतात, पण उष्णतेचा त्रास होतो - सावली व पाणी द्या.",
+      "approx_milk_kg_per_lactation": [
+        3000,
+        4500
+      ]
+    }
   },
   "Hallikar": {
     "display_name": "Hallikar",
@@ -221,7 +543,21 @@
     ],
     "description_en": "A draught (farm work) cattle breed from Karnataka.",
     "description_mr": "कर्नाटक भागातील शेतीकामासाठी (ओढकाम करणारी) गाय/बैल जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "draught",
+      "purpose_en": "FARM WORK (ploughing, carting)",
+      "purpose_mr": "शेतीकाम (नांगरणी, गाडी ओढणे)",
+      "milk_level": "low",
+      "farm_work_level": "high",
+      "milk_en": "Gives little milk - not a good choice if milk is your main goal.",
+      "milk_mr": "दूध कमी देते - दूध हा मुख्य उद्देश असेल तर योग्य नाही.",
+      "farm_en": "Fast trotting bullocks for ploughing and carting on dry red soils of Karnataka.",
+      "farm_mr": "कर्नाटकातील कोरड्या लाल जमिनीवर नांगरणी व गाडी ओढण्यासाठी वेगवान बैल.",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Hariana": {
     "display_name": "Hariana",
@@ -231,7 +567,21 @@
     ],
     "description_en": "A dual-purpose (milk and farm work) cattle breed from Haryana.",
     "description_mr": "हरियाणा भागातील दूध व शेतीकाम अशी दुहेरी उपयोगी गाय/बैल जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "dual",
+      "purpose_en": "MILK + FARM WORK (dual purpose)",
+      "purpose_mr": "दूध + शेतीकाम (दुहेरी उपयोग)",
+      "milk_level": "medium",
+      "farm_work_level": "high",
+      "milk_en": "Gives a moderate amount of milk - fine for a family and some sale, but not a commercial dairy breed.",
+      "milk_mr": "मध्यम प्रमाणात दूध देते - घरगुती वापर व थोड्या विक्रीसाठी पुरेसे, पण व्यावसायिक डेअरी जात नाही.",
+      "farm_en": "Bullocks used for ploughing and carting on light soils (Haryana/Punjab); cows give fair milk.",
+      "farm_mr": "हलक्या जमिनीवर नांगरणी व गाडी ओढण्यासाठी बैल (हरियाणा/पंजाब); गायी बऱ्यापैकी दूध देतात.",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Himachali_Pahari": {
     "display_name": "Himachali Pahari",
@@ -241,7 +591,21 @@
     ],
     "description_en": "A hill-region cattle breed from Himachal Pradesh.",
     "description_mr": "हिमाचल प्रदेश भागातील डोंगराळ भागातील गाय/बैल जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "hill",
+      "purpose_en": "hill farming - hardy, low milk, light work",
+      "purpose_mr": "डोंगराळ भागातील शेती - काटक, कमी दूध, हलकी कामे",
+      "milk_level": "low",
+      "farm_work_level": "medium",
+      "milk_en": "Gives little milk - not a good choice if milk is your main goal.",
+      "milk_mr": "दूध कमी देते - दूध हा मुख्य उद्देश असेल तर योग्य नाही.",
+      "farm_en": "Bullocks can do ploughing and carting - moderately strong.",
+      "farm_mr": "बैल नांगरणी व गाडी ओढण्याचे काम करू शकतात - मध्यम ताकद.",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Jaffarabadi": {
     "display_name": "Jaffarabadi",
@@ -251,7 +615,23 @@
     ],
     "description_en": "A dairy buffalo breed from Gujarat.",
     "description_mr": "गुजरात भागातील दुभती म्हैस जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "dairy",
+      "purpose_en": "MILK",
+      "purpose_mr": "दूध उत्पादन",
+      "milk_level": "high",
+      "farm_work_level": "medium",
+      "milk_en": "Good milk producer - a suitable choice if your main goal is milk.",
+      "milk_mr": "चांगले दूध देणारी जात - दूध हा मुख्य उद्देश असेल तर योग्य निवड.",
+      "farm_en": "Very heavy buffalo; males can pull heavy loads, but females are kept mainly for milk with high fat.",
+      "farm_mr": "खूप मोठी म्हैस; नर जड ओझी ओढू शकतात, पण माद्या प्रामुख्याने जास्त फॅटच्या दुधासाठी पाळल्या जातात.",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा.",
+      "tip_en": "Milk fat is high (about 8%); needs plenty of feed because of its size.",
+      "tip_mr": "दुधातील फॅट जास्त (सुमारे ८%); मोठ्या आकारामुळे भरपूर चारा लागतो."
+    }
   },
   "Jersey_Cross": {
     "display_name": "Jersey Cross",
@@ -259,7 +639,23 @@
     "origin_states": [],
     "description_en": "A cattle crossbred with exotic blood. Crosses vary widely in appearance.",
     "description_mr": "विदेशी रक्ताची संकरित गाय/बैल जात. संकरित जनावरांचे स्वरूप वेगवेगळे असू शकते.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "crossbred_dairy",
+      "purpose_en": "HIGH MILK (needs good care)",
+      "purpose_mr": "जास्त दूध (चांगली काळजी आवश्यक)",
+      "milk_level": "high",
+      "farm_work_level": "very_low",
+      "milk_en": "High milk yield, more than most Indian breeds - but needs good feed, clean water, shade and regular vet care.",
+      "milk_mr": "जास्त दूध देते, बहुतेक भारतीय जातींपेक्षा जास्त - पण चांगला चारा, स्वच्छ पाणी, सावली व नियमित पशुवैद्यकीय काळजी आवश्यक.",
+      "farm_en": "Not used for farm work.",
+      "farm_mr": "शेतीकामासाठी वापरली जात नाही.",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा.",
+      "tip_en": "Jersey crosses are smaller, tolerate heat better than HF crosses and give rich milk.",
+      "tip_mr": "जर्सी संकरित गायी लहान असतात, HF पेक्षा उष्णता चांगली सहन करतात व दूध घट्ट देतात."
+    }
   },
   "Kalahandi": {
     "display_name": "Kalahandi",
@@ -269,7 +665,21 @@
     ],
     "description_en": "A buffalo breed from Odisha.",
     "description_mr": "ओडिशा भागातील म्हैस जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "dual",
+      "purpose_en": "MILK + FARM WORK (dual purpose)",
+      "purpose_mr": "दूध + शेतीकाम (दुहेरी उपयोग)",
+      "milk_level": "low",
+      "farm_work_level": "medium",
+      "milk_en": "Gives little milk - not a good choice if milk is your main goal.",
+      "milk_mr": "दूध कमी देते - दूध हा मुख्य उद्देश असेल तर योग्य नाही.",
+      "farm_en": "Bullocks can do ploughing and carting - moderately strong.",
+      "farm_mr": "बैल नांगरणी व गाडी ओढण्याचे काम करू शकतात - मध्यम ताकद.",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Kangayam": {
     "display_name": "Kangayam",
@@ -279,7 +689,21 @@
     ],
     "description_en": "A draught (farm work) cattle breed from Tamil Nadu.",
     "description_mr": "तमिळनाडू भागातील शेतीकामासाठी (ओढकाम करणारी) गाय/बैल जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "draught",
+      "purpose_en": "FARM WORK (ploughing, carting)",
+      "purpose_mr": "शेतीकाम (नांगरणी, गाडी ओढणे)",
+      "milk_level": "low",
+      "farm_work_level": "high",
+      "milk_en": "Gives little milk - not a good choice if milk is your main goal.",
+      "milk_mr": "दूध कमी देते - दूध हा मुख्य उद्देश असेल तर योग्य नाही.",
+      "farm_en": "Strong bullocks for ploughing and carting on dry land in Tamil Nadu.",
+      "farm_mr": "तमिळनाडूतील कोरड्या जमिनीवर नांगरणी व गाडी ओढण्यासाठी ताकदवान बैल.",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Kankrej": {
     "display_name": "Kankrej",
@@ -290,7 +714,21 @@
     ],
     "description_en": "A dual-purpose (milk and farm work) cattle breed from Gujarat / Rajasthan.",
     "description_mr": "गुजरात / राजस्थान भागातील दूध व शेतीकाम अशी दुहेरी उपयोगी गाय/बैल जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "dual",
+      "purpose_en": "MILK + FARM WORK (dual purpose)",
+      "purpose_mr": "दूध + शेतीकाम (दुहेरी उपयोग)",
+      "milk_level": "medium",
+      "farm_work_level": "high",
+      "milk_en": "Gives a moderate amount of milk - fine for a family and some sale, but not a commercial dairy breed.",
+      "milk_mr": "मध्यम प्रमाणात दूध देते - घरगुती वापर व थोड्या विक्रीसाठी पुरेसे, पण व्यावसायिक डेअरी जात नाही.",
+      "farm_en": "Strong, fast bullocks for ploughing and carting (Gujarat/Rajasthan); cows give fair milk too.",
+      "farm_mr": "नांगरणी व गाडी ओढण्यासाठी ताकदवान, वेगवान बैल (गुजरात/राजस्थान); गायी बऱ्यापैकी दूधही देतात.",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Kasargod": {
     "display_name": "Kasargod",
@@ -300,7 +738,23 @@
     ],
     "description_en": "A small-bodied (dwarf) cattle breed from Kerala.",
     "description_mr": "केरळ भागातील लहान आकाराची (बुटकी) गाय/बैल जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "small_dairy",
+      "purpose_en": "small-scale / backyard keeping, low milk",
+      "purpose_mr": "लहान प्रमाणात / अंगणातील पालन, कमी दूध",
+      "milk_level": "low",
+      "farm_work_level": "very_low",
+      "milk_en": "Gives little milk - not a good choice if milk is your main goal.",
+      "milk_mr": "दूध कमी देते - दूध हा मुख्य उद्देश असेल तर योग्य नाही.",
+      "farm_en": "Not used for farm work.",
+      "farm_mr": "शेतीकामासाठी वापरली जात नाही.",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा.",
+      "tip_en": "Tiny hardy cow; low milk, very low feed need.",
+      "tip_mr": "लहान काटक गाय; दूध कमी, चारा खूप कमी लागतो."
+    }
   },
   "Kenkatha": {
     "display_name": "Kenkatha",
@@ -311,7 +765,21 @@
     ],
     "description_en": "A draught (farm work) cattle breed from Uttar Pradesh / Madhya Pradesh.",
     "description_mr": "उत्तर प्रदेश / मध्य प्रदेश भागातील शेतीकामासाठी (ओढकाम करणारी) गाय/बैल जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "draught",
+      "purpose_en": "FARM WORK (ploughing, carting)",
+      "purpose_mr": "शेतीकाम (नांगरणी, गाडी ओढणे)",
+      "milk_level": "low",
+      "farm_work_level": "high",
+      "milk_en": "Gives little milk - not a good choice if milk is your main goal.",
+      "milk_mr": "दूध कमी देते - दूध हा मुख्य उद्देश असेल तर योग्य नाही.",
+      "farm_en": "Small, hardy bullocks for ploughing on rocky, uneven land (Bundelkhand).",
+      "farm_mr": "खडकाळ, असमान जमिनीवर नांगरणीसाठी लहान, काटक बैल (बुंदेलखंड).",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Khariar": {
     "display_name": "Khariar",
@@ -321,7 +789,21 @@
     ],
     "description_en": "A cattle breed from Odisha.",
     "description_mr": "ओडिशा भागातील गाय/बैल जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "dual",
+      "purpose_en": "MILK + FARM WORK (dual purpose)",
+      "purpose_mr": "दूध + शेतीकाम (दुहेरी उपयोग)",
+      "milk_level": "low",
+      "farm_work_level": "medium",
+      "milk_en": "Gives little milk - not a good choice if milk is your main goal.",
+      "milk_mr": "दूध कमी देते - दूध हा मुख्य उद्देश असेल तर योग्य नाही.",
+      "farm_en": "Bullocks can do ploughing and carting - moderately strong.",
+      "farm_mr": "बैल नांगरणी व गाडी ओढण्याचे काम करू शकतात - मध्यम ताकद.",
+      "source_confidence": "check",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Kherigarh": {
     "display_name": "Kherigarh",
@@ -331,7 +813,21 @@
     ],
     "description_en": "A draught (farm work) cattle breed from Uttar Pradesh.",
     "description_mr": "उत्तर प्रदेश भागातील शेतीकामासाठी (ओढकाम करणारी) गाय/बैल जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "draught",
+      "purpose_en": "FARM WORK (ploughing, carting)",
+      "purpose_mr": "शेतीकाम (नांगरणी, गाडी ओढणे)",
+      "milk_level": "low",
+      "farm_work_level": "high",
+      "milk_en": "Gives little milk - not a good choice if milk is your main goal.",
+      "milk_mr": "दूध कमी देते - दूध हा मुख्य उद्देश असेल तर योग्य नाही.",
+      "farm_en": "Fast bullocks for light carting and field work (Uttar Pradesh).",
+      "farm_mr": "हलकी गाडी ओढणे व शेतीकामासाठी वेगवान बैल (उत्तर प्रदेश).",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Khillari": {
     "display_name": "Khillari",
@@ -342,7 +838,21 @@
     ],
     "description_en": "A draught (farm work) cattle breed from Maharashtra / Karnataka.",
     "description_mr": "महाराष्ट्र / कर्नाटक भागातील शेतीकामासाठी (ओढकाम करणारी) गाय/बैल जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "draught",
+      "purpose_en": "FARM WORK (ploughing, carting)",
+      "purpose_mr": "शेतीकाम (नांगरणी, गाडी ओढणे)",
+      "milk_level": "low",
+      "farm_work_level": "high",
+      "milk_en": "Gives little milk - not a good choice if milk is your main goal.",
+      "milk_mr": "दूध कमी देते - दूध हा मुख्य उद्देश असेल तर योग्य नाही.",
+      "farm_en": "Fast, hardy bullocks for ploughing and carting on dry, rocky land and black cotton soil (Maharashtra/Karnataka dry belt).",
+      "farm_mr": "कोरड्या, खडकाळ जमिनीवर व काळ्या कापसाच्या जमिनीत नांगरणी व गाडी ओढण्यासाठी वेगवान, काटक बैल (महाराष्ट्र/कर्नाटकचा कोरडा पट्टा).",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Konkan_Kapila": {
     "display_name": "Konkan Kapila",
@@ -353,7 +863,21 @@
     ],
     "description_en": "A cattle breed from Maharashtra / Goa.",
     "description_mr": "महाराष्ट्र / गोवा भागातील गाय/बैल जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "dual",
+      "purpose_en": "MILK + FARM WORK (dual purpose)",
+      "purpose_mr": "दूध + शेतीकाम (दुहेरी उपयोग)",
+      "milk_level": "low",
+      "farm_work_level": "medium",
+      "milk_en": "Gives little milk - not a good choice if milk is your main goal.",
+      "milk_mr": "दूध कमी देते - दूध हा मुख्य उद्देश असेल तर योग्य नाही.",
+      "farm_en": "Bullocks can do ploughing and carting - moderately strong.",
+      "farm_mr": "बैल नांगरणी व गाडी ओढण्याचे काम करू शकतात - मध्यम ताकद.",
+      "source_confidence": "check",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Kosali": {
     "display_name": "Kosali",
@@ -363,7 +887,21 @@
     ],
     "description_en": "A cattle breed from Chhattisgarh.",
     "description_mr": "छत्तीसगड भागातील गाय/बैल जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "dual",
+      "purpose_en": "MILK + FARM WORK (dual purpose)",
+      "purpose_mr": "दूध + शेतीकाम (दुहेरी उपयोग)",
+      "milk_level": "low",
+      "farm_work_level": "medium",
+      "milk_en": "Gives little milk - not a good choice if milk is your main goal.",
+      "milk_mr": "दूध कमी देते - दूध हा मुख्य उद्देश असेल तर योग्य नाही.",
+      "farm_en": "Bullocks can do ploughing and carting - moderately strong.",
+      "farm_mr": "बैल नांगरणी व गाडी ओढण्याचे काम करू शकतात - मध्यम ताकद.",
+      "source_confidence": "check",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Krishna_Valley": {
     "display_name": "Krishna Valley",
@@ -374,7 +912,21 @@
     ],
     "description_en": "A draught (farm work) cattle breed from Karnataka / Maharashtra.",
     "description_mr": "कर्नाटक / महाराष्ट्र भागातील शेतीकामासाठी (ओढकाम करणारी) गाय/बैल जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "draught",
+      "purpose_en": "FARM WORK (ploughing, carting)",
+      "purpose_mr": "शेतीकाम (नांगरणी, गाडी ओढणे)",
+      "milk_level": "low",
+      "farm_work_level": "high",
+      "milk_en": "Gives little milk - not a good choice if milk is your main goal.",
+      "milk_mr": "दूध कमी देते - दूध हा मुख्य उद्देश असेल तर योग्य नाही.",
+      "farm_en": "Heavy ploughing and carting in black cotton soil (Krishna valley, Karnataka/Maharashtra).",
+      "farm_mr": "काळ्या कापसाच्या जमिनीत जड नांगरणी व गाडी ओढणे (कृष्णा खोरे, कर्नाटक/महाराष्ट्र).",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Ladakhi": {
     "display_name": "Ladakhi",
@@ -384,7 +936,21 @@
     ],
     "description_en": "A hill-region cattle breed from Ladakh.",
     "description_mr": "लडाख भागातील डोंगराळ भागातील गाय/बैल जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "hill",
+      "purpose_en": "hill farming - hardy, low milk, light work",
+      "purpose_mr": "डोंगराळ भागातील शेती - काटक, कमी दूध, हलकी कामे",
+      "milk_level": "low",
+      "farm_work_level": "medium",
+      "milk_en": "Gives little milk - not a good choice if milk is your main goal.",
+      "milk_mr": "दूध कमी देते - दूध हा मुख्य उद्देश असेल तर योग्य नाही.",
+      "farm_en": "Bullocks can do ploughing and carting - moderately strong.",
+      "farm_mr": "बैल नांगरणी व गाडी ओढण्याचे काम करू शकतात - मध्यम ताकद.",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Lakhimi": {
     "display_name": "Lakhimi",
@@ -394,7 +960,21 @@
     ],
     "description_en": "A cattle breed from Assam.",
     "description_mr": "आसाम भागातील गाय/बैल जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "dual",
+      "purpose_en": "MILK + FARM WORK (dual purpose)",
+      "purpose_mr": "दूध + शेतीकाम (दुहेरी उपयोग)",
+      "milk_level": "low",
+      "farm_work_level": "medium",
+      "milk_en": "Gives little milk - not a good choice if milk is your main goal.",
+      "milk_mr": "दूध कमी देते - दूध हा मुख्य उद्देश असेल तर योग्य नाही.",
+      "farm_en": "Bullocks can do ploughing and carting - moderately strong.",
+      "farm_mr": "बैल नांगरणी व गाडी ओढण्याचे काम करू शकतात - मध्यम ताकद.",
+      "source_confidence": "check",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Luit": {
     "display_name": "Luit",
@@ -404,7 +984,21 @@
     ],
     "description_en": "A swamp-type buffalo breed from Assam.",
     "description_mr": "आसाम भागातील दलदलीच्या भागातील म्हैस जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "wetland_draught",
+      "purpose_en": "FARM WORK in wet paddy land",
+      "purpose_mr": "ओल्या भातशेतीतील शेतीकाम",
+      "milk_level": "very_low",
+      "farm_work_level": "medium",
+      "milk_en": "Gives very little milk - kept mainly for other reasons.",
+      "milk_mr": "दूध खूप कमी देते - मुख्यतः इतर कारणांसाठी पाळली जाते.",
+      "farm_en": "Swamp-type buffalo used for work in wet, marshy paddy land (Assam).",
+      "farm_mr": "दलदलीच्या भातशेतीत कामासाठी वापरली जाणारी दलदल प्रकारची म्हैस (आसाम).",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Malnad_Gidda": {
     "display_name": "Malnad Gidda",
@@ -414,7 +1008,21 @@
     ],
     "description_en": "A small-bodied (dwarf) cattle breed from Karnataka.",
     "description_mr": "कर्नाटक भागातील लहान आकाराची (बुटकी) गाय/बैल जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "small_dairy",
+      "purpose_en": "small-scale / backyard keeping, low milk",
+      "purpose_mr": "लहान प्रमाणात / अंगणातील पालन, कमी दूध",
+      "milk_level": "low",
+      "farm_work_level": "very_low",
+      "milk_en": "Gives little milk - not a good choice if milk is your main goal.",
+      "milk_mr": "दूध कमी देते - दूध हा मुख्य उद्देश असेल तर योग्य नाही.",
+      "farm_en": "Not used for farm work.",
+      "farm_mr": "शेतीकामासाठी वापरली जात नाही.",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Malvi": {
     "display_name": "Malvi",
@@ -424,7 +1032,21 @@
     ],
     "description_en": "A draught (farm work) cattle breed from Madhya Pradesh.",
     "description_mr": "मध्य प्रदेश भागातील शेतीकामासाठी (ओढकाम करणारी) गाय/बैल जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "draught",
+      "purpose_en": "FARM WORK (ploughing, carting)",
+      "purpose_mr": "शेतीकाम (नांगरणी, गाडी ओढणे)",
+      "milk_level": "low",
+      "farm_work_level": "high",
+      "milk_en": "Gives little milk - not a good choice if milk is your main goal.",
+      "milk_mr": "दूध कमी देते - दूध हा मुख्य उद्देश असेल तर योग्य नाही.",
+      "farm_en": "Ploughing and carting on the black soils of the Malwa plateau (Madhya Pradesh).",
+      "farm_mr": "माळवा पठारावरील काळ्या जमिनीत नांगरणी व गाडी ओढणे (मध्य प्रदेश).",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Marathwadi": {
     "display_name": "Marathwadi",
@@ -434,7 +1056,21 @@
     ],
     "description_en": "A dairy buffalo breed from Maharashtra.",
     "description_mr": "महाराष्ट्र भागातील दुभती म्हैस जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "dual",
+      "purpose_en": "MILK + FARM WORK (dual purpose)",
+      "purpose_mr": "दूध + शेतीकाम (दुहेरी उपयोग)",
+      "milk_level": "medium",
+      "farm_work_level": "medium",
+      "milk_en": "Gives a moderate amount of milk - fine for a family and some sale, but not a commercial dairy breed.",
+      "milk_mr": "मध्यम प्रमाणात दूध देते - घरगुती वापर व थोड्या विक्रीसाठी पुरेसे, पण व्यावसायिक डेअरी जात नाही.",
+      "farm_en": "Bullocks can do ploughing and carting - moderately strong.",
+      "farm_mr": "बैल नांगरणी व गाडी ओढण्याचे काम करू शकतात - मध्यम ताकद.",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Mehsana": {
     "display_name": "Mehsana",
@@ -444,7 +1080,21 @@
     ],
     "description_en": "A dairy buffalo breed from Gujarat.",
     "description_mr": "गुजरात भागातील दुभती म्हैस जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "dairy",
+      "purpose_en": "MILK",
+      "purpose_mr": "दूध उत्पादन",
+      "milk_level": "high",
+      "farm_work_level": "low",
+      "milk_en": "Good milk producer - a suitable choice if your main goal is milk.",
+      "milk_mr": "चांगले दूध देणारी जात - दूध हा मुख्य उद्देश असेल तर योग्य निवड.",
+      "farm_en": "Mainly kept for milk. Male buffaloes can do slow, heavy jobs, but they are not the first choice for field work.",
+      "farm_mr": "प्रामुख्याने दुधासाठी पाळली जाते. नर रेडे हळू पण जड कामे करू शकतात, पण शेतीकामासाठी पहिली निवड नाही.",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Mewati": {
     "display_name": "Mewati",
@@ -455,7 +1105,21 @@
     ],
     "description_en": "A dual-purpose (milk and farm work) cattle breed from Rajasthan / Haryana.",
     "description_mr": "राजस्थान / हरियाणा भागातील दूध व शेतीकाम अशी दुहेरी उपयोगी गाय/बैल जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "dual",
+      "purpose_en": "MILK + FARM WORK (dual purpose)",
+      "purpose_mr": "दूध + शेतीकाम (दुहेरी उपयोग)",
+      "milk_level": "medium",
+      "farm_work_level": "high",
+      "milk_en": "Gives a moderate amount of milk - fine for a family and some sale, but not a commercial dairy breed.",
+      "milk_mr": "मध्यम प्रमाणात दूध देते - घरगुती वापर व थोड्या विक्रीसाठी पुरेसे, पण व्यावसायिक डेअरी जात नाही.",
+      "farm_en": "Strong bullocks for heavy farm work (Rajasthan/Haryana); cows give fair milk.",
+      "farm_mr": "जड शेतीकामासाठी ताकदवान बैल (राजस्थान/हरियाणा); गायी बऱ्यापैकी दूध देतात.",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Motu": {
     "display_name": "Motu",
@@ -463,7 +1127,21 @@
     "origin_states": [],
     "description_en": "Details not yet confirmed. Verify this breed against the ICAR-NBAGR registry before relying on it.",
     "description_mr": "माहिती अजून निश्चित नाही. वापरण्यापूर्वी ICAR-NBAGR नोंदणीवरून जात तपासा.",
-    "verified": false
+    "verified": false,
+    "usage": {
+      "primary_use": "unknown",
+      "purpose_en": "Details not confirmed",
+      "purpose_mr": "तपशील निश्चित नाहीत",
+      "milk_level": "unknown",
+      "farm_work_level": "unknown",
+      "milk_en": "Milk yield not confirmed for this breed.",
+      "milk_mr": "या जातीचे दूध उत्पादन निश्चित नाही.",
+      "farm_en": "Farm-work ability not confirmed.",
+      "farm_mr": "शेतीकामाची क्षमता निश्चित नाही.",
+      "source_confidence": "check",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Murrah": {
     "display_name": "Murrah",
@@ -473,7 +1151,27 @@
     ],
     "description_en": "A dairy buffalo breed from Haryana.",
     "description_mr": "हरियाणा भागातील दुभती म्हैस जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "dairy",
+      "purpose_en": "MILK",
+      "purpose_mr": "दूध उत्पादन",
+      "milk_level": "high",
+      "farm_work_level": "low",
+      "milk_en": "Good milk producer - a suitable choice if your main goal is milk.",
+      "milk_mr": "चांगले दूध देणारी जात - दूध हा मुख्य उद्देश असेल तर योग्य निवड.",
+      "farm_en": "Mainly kept for milk. Male buffaloes can do slow, heavy jobs, but they are not the first choice for field work.",
+      "farm_mr": "प्रामुख्याने दुधासाठी पाळली जाते. नर रेडे हळू पण जड कामे करू शकतात, पण शेतीकामासाठी पहिली निवड नाही.",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा.",
+      "tip_en": "Top milk buffalo in India; milk fat about 7%. Needs good green fodder and water.",
+      "tip_mr": "भारतातील सर्वाधिक दूध देणारी म्हैस; दुधातील फॅट सुमारे ७%. चांगला हिरवा चारा व पाणी आवश्यक.",
+      "approx_milk_kg_per_lactation": [
+        1800,
+        2200
+      ]
+    }
   },
   "Nagori": {
     "display_name": "Nagori",
@@ -483,7 +1181,21 @@
     ],
     "description_en": "A draught (farm work) cattle breed from Rajasthan.",
     "description_mr": "राजस्थान भागातील शेतीकामासाठी (ओढकाम करणारी) गाय/बैल जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "draught",
+      "purpose_en": "FARM WORK (ploughing, carting)",
+      "purpose_mr": "शेतीकाम (नांगरणी, गाडी ओढणे)",
+      "milk_level": "low",
+      "farm_work_level": "high",
+      "milk_en": "Gives little milk - not a good choice if milk is your main goal.",
+      "milk_mr": "दूध कमी देते - दूध हा मुख्य उद्देश असेल तर योग्य नाही.",
+      "farm_en": "Fast trotting bullocks for ploughing and carting on sandy soil (Rajasthan).",
+      "farm_mr": "वाळूमय जमिनीवर नांगरणी व गाडी ओढण्यासाठी वेगवान बैल (राजस्थान).",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Nagpuri": {
     "display_name": "Nagpuri",
@@ -493,7 +1205,21 @@
     ],
     "description_en": "A dual-purpose (milk and farm work) buffalo breed from Maharashtra.",
     "description_mr": "महाराष्ट्र भागातील दूध व शेतीकाम अशी दुहेरी उपयोगी म्हैस जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "dual",
+      "purpose_en": "MILK + FARM WORK (dual purpose)",
+      "purpose_mr": "दूध + शेतीकाम (दुहेरी उपयोग)",
+      "milk_level": "medium",
+      "farm_work_level": "medium",
+      "milk_en": "Gives a moderate amount of milk - fine for a family and some sale, but not a commercial dairy breed.",
+      "milk_mr": "मध्यम प्रमाणात दूध देते - घरगुती वापर व थोड्या विक्रीसाठी पुरेसे, पण व्यावसायिक डेअरी जात नाही.",
+      "farm_en": "Females give moderate milk; males are used for slow draught work (Vidarbha).",
+      "farm_mr": "माद्या मध्यम दूध देतात; नर हळू ओढकामासाठी वापरले जातात (विदर्भ).",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Nari": {
     "display_name": "Nari",
@@ -504,7 +1230,21 @@
     ],
     "description_en": "A dual-purpose (milk and farm work) cattle breed from Rajasthan / Gujarat.",
     "description_mr": "राजस्थान / गुजरात भागातील दूध व शेतीकाम अशी दुहेरी उपयोगी गाय/बैल जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "dual",
+      "purpose_en": "MILK + FARM WORK (dual purpose)",
+      "purpose_mr": "दूध + शेतीकाम (दुहेरी उपयोग)",
+      "milk_level": "medium",
+      "farm_work_level": "high",
+      "milk_en": "Gives a moderate amount of milk - fine for a family and some sale, but not a commercial dairy breed.",
+      "milk_mr": "मध्यम प्रमाणात दूध देते - घरगुती वापर व थोड्या विक्रीसाठी पुरेसे, पण व्यावसायिक डेअरी जात नाही.",
+      "farm_en": "Cows give fair milk and bullocks do farm work (Rajasthan/Gujarat).",
+      "farm_mr": "गायी बऱ्यापैकी दूध देतात व बैल शेतीकाम करतात (राजस्थान/गुजरात).",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Nili_Ravi": {
     "display_name": "Nili Ravi",
@@ -514,7 +1254,21 @@
     ],
     "description_en": "A dairy buffalo breed from Punjab.",
     "description_mr": "पंजाब भागातील दुभती म्हैस जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "dairy",
+      "purpose_en": "MILK",
+      "purpose_mr": "दूध उत्पादन",
+      "milk_level": "high",
+      "farm_work_level": "low",
+      "milk_en": "Good milk producer - a suitable choice if your main goal is milk.",
+      "milk_mr": "चांगले दूध देणारी जात - दूध हा मुख्य उद्देश असेल तर योग्य निवड.",
+      "farm_en": "Mainly kept for milk. Male buffaloes can do slow, heavy jobs, but they are not the first choice for field work.",
+      "farm_mr": "प्रामुख्याने दुधासाठी पाळली जाते. नर रेडे हळू पण जड कामे करू शकतात, पण शेतीकामासाठी पहिली निवड नाही.",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Nimari": {
     "display_name": "Nimari",
@@ -524,7 +1278,21 @@
     ],
     "description_en": "A dual-purpose (milk and farm work) cattle breed from Madhya Pradesh.",
     "description_mr": "मध्य प्रदेश भागातील दूध व शेतीकाम अशी दुहेरी उपयोगी गाय/बैल जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "dual",
+      "purpose_en": "MILK + FARM WORK (dual purpose)",
+      "purpose_mr": "दूध + शेतीकाम (दुहेरी उपयोग)",
+      "milk_level": "low",
+      "farm_work_level": "high",
+      "milk_en": "Gives little milk - not a good choice if milk is your main goal.",
+      "milk_mr": "दूध कमी देते - दूध हा मुख्य उद्देश असेल तर योग्य नाही.",
+      "farm_en": "Ploughing and carting on the Nimar plains (Madhya Pradesh); cows give little milk.",
+      "farm_mr": "निमार मैदानात नांगरणी व गाडी ओढणे (मध्य प्रदेश); गायी कमी दूध देतात.",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Ongole": {
     "display_name": "Ongole",
@@ -534,7 +1302,21 @@
     ],
     "description_en": "A dual-purpose (milk and farm work) cattle breed from Andhra Pradesh.",
     "description_mr": "आंध्र प्रदेश भागातील दूध व शेतीकाम अशी दुहेरी उपयोगी गाय/बैल जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "dual",
+      "purpose_en": "MILK + FARM WORK (dual purpose)",
+      "purpose_mr": "दूध + शेतीकाम (दुहेरी उपयोग)",
+      "milk_level": "low",
+      "farm_work_level": "high",
+      "milk_en": "Gives little milk - not a good choice if milk is your main goal.",
+      "milk_mr": "दूध कमी देते - दूध हा मुख्य उद्देश असेल तर योग्य नाही.",
+      "farm_en": "Heavy bullocks for ploughing and pulling heavy carts (Andhra Pradesh).",
+      "farm_mr": "नांगरणी व जड गाड्या ओढण्यासाठी मोठे बैल (आंध्र प्रदेश).",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Pandharpuri": {
     "display_name": "Pandharpuri",
@@ -544,7 +1326,21 @@
     ],
     "description_en": "A dairy buffalo breed from Maharashtra.",
     "description_mr": "महाराष्ट्र भागातील दुभती म्हैस जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "dairy",
+      "purpose_en": "MILK",
+      "purpose_mr": "दूध उत्पादन",
+      "milk_level": "medium",
+      "farm_work_level": "low",
+      "milk_en": "Gives a moderate amount of milk - fine for a family and some sale, but not a commercial dairy breed.",
+      "milk_mr": "मध्यम प्रमाणात दूध देते - घरगुती वापर व थोड्या विक्रीसाठी पुरेसे, पण व्यावसायिक डेअरी जात नाही.",
+      "farm_en": "Mainly kept for milk. Male buffaloes can do slow, heavy jobs, but they are not the first choice for field work.",
+      "farm_mr": "प्रामुख्याने दुधासाठी पाळली जाते. नर रेडे हळू पण जड कामे करू शकतात, पण शेतीकामासाठी पहिली निवड नाही.",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Poda_Thirupu": {
     "display_name": "Poda Thirupu",
@@ -554,7 +1350,21 @@
     ],
     "description_en": "A cattle breed from Telangana.",
     "description_mr": "तेलंगणा भागातील गाय/बैल जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "dual",
+      "purpose_en": "MILK + FARM WORK (dual purpose)",
+      "purpose_mr": "दूध + शेतीकाम (दुहेरी उपयोग)",
+      "milk_level": "low",
+      "farm_work_level": "medium",
+      "milk_en": "Gives little milk - not a good choice if milk is your main goal.",
+      "milk_mr": "दूध कमी देते - दूध हा मुख्य उद्देश असेल तर योग्य नाही.",
+      "farm_en": "Bullocks can do ploughing and carting - moderately strong.",
+      "farm_mr": "बैल नांगरणी व गाडी ओढण्याचे काम करू शकतात - मध्यम ताकद.",
+      "source_confidence": "check",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Ponwar": {
     "display_name": "Ponwar",
@@ -564,7 +1374,21 @@
     ],
     "description_en": "A draught (farm work) cattle breed from Uttar Pradesh.",
     "description_mr": "उत्तर प्रदेश भागातील शेतीकामासाठी (ओढकाम करणारी) गाय/बैल जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "draught",
+      "purpose_en": "FARM WORK (ploughing, carting)",
+      "purpose_mr": "शेतीकाम (नांगरणी, गाडी ओढणे)",
+      "milk_level": "low",
+      "farm_work_level": "high",
+      "milk_en": "Gives little milk - not a good choice if milk is your main goal.",
+      "milk_mr": "दूध कमी देते - दूध हा मुख्य उद्देश असेल तर योग्य नाही.",
+      "farm_en": "Ploughing and light carting (Uttar Pradesh).",
+      "farm_mr": "नांगरणी व हलकी गाडी ओढणे (उत्तर प्रदेश).",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Pulikulam": {
     "display_name": "Pulikulam",
@@ -574,7 +1398,21 @@
     ],
     "description_en": "A draught (farm work) cattle breed from Tamil Nadu.",
     "description_mr": "तमिळनाडू भागातील शेतीकामासाठी (ओढकाम करणारी) गाय/बैल जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "draught",
+      "purpose_en": "FARM WORK (ploughing, carting)",
+      "purpose_mr": "शेतीकाम (नांगरणी, गाडी ओढणे)",
+      "milk_level": "low",
+      "farm_work_level": "high",
+      "milk_en": "Gives little milk - not a good choice if milk is your main goal.",
+      "milk_mr": "दूध कमी देते - दूध हा मुख्य उद्देश असेल तर योग्य नाही.",
+      "farm_en": "Ploughing and light carting on dry land (Tamil Nadu).",
+      "farm_mr": "कोरड्या जमिनीवर नांगरणी व हलकी गाडी ओढणे (तमिळनाडू).",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Punganur": {
     "display_name": "Punganur",
@@ -584,7 +1422,23 @@
     ],
     "description_en": "A small-bodied (dwarf) cattle breed from Andhra Pradesh.",
     "description_mr": "आंध्र प्रदेश भागातील लहान आकाराची (बुटकी) गाय/बैल जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "small_dairy",
+      "purpose_en": "small-scale / backyard keeping, low milk",
+      "purpose_mr": "लहान प्रमाणात / अंगणातील पालन, कमी दूध",
+      "milk_level": "low",
+      "farm_work_level": "very_low",
+      "milk_en": "Gives little milk - not a good choice if milk is your main goal.",
+      "milk_mr": "दूध कमी देते - दूध हा मुख्य उद्देश असेल तर योग्य नाही.",
+      "farm_en": "Not used for farm work.",
+      "farm_mr": "शेतीकामासाठी वापरली जात नाही.",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा.",
+      "tip_en": "Tiny cow; low milk quantity but rich milk.",
+      "tip_mr": "लहान गाय; दूध कमी पण घट्ट."
+    }
   },
   "Purnea": {
     "display_name": "Purnea",
@@ -594,7 +1448,21 @@
     ],
     "description_en": "A cattle breed from Bihar.",
     "description_mr": "बिहार भागातील गाय/बैल जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "dual",
+      "purpose_en": "MILK + FARM WORK (dual purpose)",
+      "purpose_mr": "दूध + शेतीकाम (दुहेरी उपयोग)",
+      "milk_level": "low",
+      "farm_work_level": "medium",
+      "milk_en": "Gives little milk - not a good choice if milk is your main goal.",
+      "milk_mr": "दूध कमी देते - दूध हा मुख्य उद्देश असेल तर योग्य नाही.",
+      "farm_en": "Bullocks can do ploughing and carting - moderately strong.",
+      "farm_mr": "बैल नांगरणी व गाडी ओढण्याचे काम करू शकतात - मध्यम ताकद.",
+      "source_confidence": "check",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Rathi": {
     "display_name": "Rathi",
@@ -604,7 +1472,21 @@
     ],
     "description_en": "A dairy cattle breed from Rajasthan.",
     "description_mr": "राजस्थान भागातील दुभती गाय/बैल जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "dairy",
+      "purpose_en": "MILK",
+      "purpose_mr": "दूध उत्पादन",
+      "milk_level": "high",
+      "farm_work_level": "low",
+      "milk_en": "Good milk producer - a suitable choice if your main goal is milk.",
+      "milk_mr": "चांगले दूध देणारी जात - दूध हा मुख्य उद्देश असेल तर योग्य निवड.",
+      "farm_en": "Not suited to heavy farm work.",
+      "farm_mr": "जड शेतीकामांसाठी योग्य नाही.",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Red_Dane_Cross": {
     "display_name": "Red Dane Cross",
@@ -612,7 +1494,21 @@
     "origin_states": [],
     "description_en": "A cattle crossbred with exotic blood. Crosses vary widely in appearance.",
     "description_mr": "विदेशी रक्ताची संकरित गाय/बैल जात. संकरित जनावरांचे स्वरूप वेगवेगळे असू शकते.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "crossbred_dairy",
+      "purpose_en": "HIGH MILK (needs good care)",
+      "purpose_mr": "जास्त दूध (चांगली काळजी आवश्यक)",
+      "milk_level": "high",
+      "farm_work_level": "very_low",
+      "milk_en": "High milk yield, more than most Indian breeds - but needs good feed, clean water, shade and regular vet care.",
+      "milk_mr": "जास्त दूध देते, बहुतेक भारतीय जातींपेक्षा जास्त - पण चांगला चारा, स्वच्छ पाणी, सावली व नियमित पशुवैद्यकीय काळजी आवश्यक.",
+      "farm_en": "Not used for farm work.",
+      "farm_mr": "शेतीकामासाठी वापरली जात नाही.",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Red_Kandhari": {
     "display_name": "Red Kandhari",
@@ -622,7 +1518,21 @@
     ],
     "description_en": "A draught (farm work) cattle breed from Maharashtra.",
     "description_mr": "महाराष्ट्र भागातील शेतीकामासाठी (ओढकाम करणारी) गाय/बैल जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "draught",
+      "purpose_en": "FARM WORK (ploughing, carting)",
+      "purpose_mr": "शेतीकाम (नांगरणी, गाडी ओढणे)",
+      "milk_level": "low",
+      "farm_work_level": "high",
+      "milk_en": "Gives little milk - not a good choice if milk is your main goal.",
+      "milk_mr": "दूध कमी देते - दूध हा मुख्य उद्देश असेल तर योग्य नाही.",
+      "farm_en": "Ploughing and carting in Maharashtra (Nanded/Latur region).",
+      "farm_mr": "महाराष्ट्रात (नांदेड/लातूर भाग) नांगरणी व गाडी ओढणे.",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Red_Sindhi": {
     "display_name": "Red Sindhi",
@@ -632,7 +1542,21 @@
     ],
     "description_en": "A dairy cattle breed from Sindh region.",
     "description_mr": "सिंध प्रदेश भागातील दुभती गाय/बैल जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "dairy",
+      "purpose_en": "MILK",
+      "purpose_mr": "दूध उत्पादन",
+      "milk_level": "high",
+      "farm_work_level": "low",
+      "milk_en": "Good milk producer - a suitable choice if your main goal is milk.",
+      "milk_mr": "चांगले दूध देणारी जात - दूध हा मुख्य उद्देश असेल तर योग्य निवड.",
+      "farm_en": "Not suited to heavy farm work.",
+      "farm_mr": "जड शेतीकामांसाठी योग्य नाही.",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Sahiwal": {
     "display_name": "Sahiwal",
@@ -642,7 +1566,25 @@
     ],
     "description_en": "A dairy cattle breed from Punjab.",
     "description_mr": "पंजाब भागातील दुभती गाय/बैल जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "dairy",
+      "purpose_en": "MILK",
+      "purpose_mr": "दूध उत्पादन",
+      "milk_level": "high",
+      "farm_work_level": "low",
+      "milk_en": "Good milk producer - a suitable choice if your main goal is milk.",
+      "milk_mr": "चांगले दूध देणारी जात - दूध हा मुख्य उद्देश असेल तर योग्य निवड.",
+      "farm_en": "Heat- and tick-tolerant milk breed (Punjab); suits hot climates.",
+      "farm_mr": "उष्णता व गोचीड सहन करणारी दुभती जात (पंजाब); उष्ण हवामानासाठी योग्य.",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा.",
+      "approx_milk_kg_per_lactation": [
+        1800,
+        2500
+      ]
+    }
   },
   "Shweta_Kapila": {
     "display_name": "Shweta Kapila",
@@ -652,7 +1594,21 @@
     ],
     "description_en": "A cattle breed from Goa.",
     "description_mr": "गोवा भागातील गाय/बैल जात.",
-    "verified": false
+    "verified": false,
+    "usage": {
+      "primary_use": "dual",
+      "purpose_en": "MILK + FARM WORK (dual purpose)",
+      "purpose_mr": "दूध + शेतीकाम (दुहेरी उपयोग)",
+      "milk_level": "low",
+      "farm_work_level": "medium",
+      "milk_en": "Gives little milk - not a good choice if milk is your main goal.",
+      "milk_mr": "दूध कमी देते - दूध हा मुख्य उद्देश असेल तर योग्य नाही.",
+      "farm_en": "Bullocks can do ploughing and carting - moderately strong.",
+      "farm_mr": "बैल नांगरणी व गाडी ओढण्याचे काम करू शकतात - मध्यम ताकद.",
+      "source_confidence": "check",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Siri": {
     "display_name": "Siri",
@@ -662,7 +1618,21 @@
     ],
     "description_en": "A hill-region cattle breed from Sikkim.",
     "description_mr": "सिक्कीम भागातील डोंगराळ भागातील गाय/बैल जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "hill",
+      "purpose_en": "hill farming - hardy, low milk, light work",
+      "purpose_mr": "डोंगराळ भागातील शेती - काटक, कमी दूध, हलकी कामे",
+      "milk_level": "low",
+      "farm_work_level": "medium",
+      "milk_en": "Gives little milk - not a good choice if milk is your main goal.",
+      "milk_mr": "दूध कमी देते - दूध हा मुख्य उद्देश असेल तर योग्य नाही.",
+      "farm_en": "Bullocks can do ploughing and carting - moderately strong.",
+      "farm_mr": "बैल नांगरणी व गाडी ओढण्याचे काम करू शकतात - मध्यम ताकद.",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Surti": {
     "display_name": "Surti",
@@ -672,7 +1642,23 @@
     ],
     "description_en": "A dairy buffalo breed from Gujarat.",
     "description_mr": "गुजरात भागातील दुभती म्हैस जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "dairy",
+      "purpose_en": "MILK",
+      "purpose_mr": "दूध उत्पादन",
+      "milk_level": "medium",
+      "farm_work_level": "low",
+      "milk_en": "Gives a moderate amount of milk - fine for a family and some sale, but not a commercial dairy breed.",
+      "milk_mr": "मध्यम प्रमाणात दूध देते - घरगुती वापर व थोड्या विक्रीसाठी पुरेसे, पण व्यावसायिक डेअरी जात नाही.",
+      "farm_en": "Mainly kept for milk. Male buffaloes can do slow, heavy jobs, but they are not the first choice for field work.",
+      "farm_mr": "प्रामुख्याने दुधासाठी पाळली जाते. नर रेडे हळू पण जड कामे करू शकतात, पण शेतीकामासाठी पहिली निवड नाही.",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा.",
+      "tip_en": "Medium-sized buffalo with high-fat milk.",
+      "tip_mr": "मध्यम आकाराची म्हैस; जास्त फॅटचे दूध."
+    }
   },
   "Tharparkar": {
     "display_name": "Tharparkar",
@@ -682,7 +1668,21 @@
     ],
     "description_en": "A dual-purpose (milk and farm work) cattle breed from Rajasthan.",
     "description_mr": "राजस्थान भागातील दूध व शेतीकाम अशी दुहेरी उपयोगी गाय/बैल जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "dual",
+      "purpose_en": "MILK + FARM WORK (dual purpose)",
+      "purpose_mr": "दूध + शेतीकाम (दुहेरी उपयोग)",
+      "milk_level": "medium",
+      "farm_work_level": "high",
+      "milk_en": "Gives a moderate amount of milk - fine for a family and some sale, but not a commercial dairy breed.",
+      "milk_mr": "मध्यम प्रमाणात दूध देते - घरगुती वापर व थोड्या विक्रीसाठी पुरेसे, पण व्यावसायिक डेअरी जात नाही.",
+      "farm_en": "Cows give good milk in hot, dry areas; bullocks do farm work (Rajasthan, drought-hardy).",
+      "farm_mr": "उष्ण, कोरड्या भागात गायी चांगले दूध देतात; बैल शेतीकाम करतात (राजस्थान, दुष्काळ सहनशील).",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Thutho": {
     "display_name": "Thutho",
@@ -692,7 +1692,21 @@
     ],
     "description_en": "A cattle breed from Nagaland.",
     "description_mr": "नागालँड भागातील गाय/बैल जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "dual",
+      "purpose_en": "MILK + FARM WORK (dual purpose)",
+      "purpose_mr": "दूध + शेतीकाम (दुहेरी उपयोग)",
+      "milk_level": "low",
+      "farm_work_level": "medium",
+      "milk_en": "Gives little milk - not a good choice if milk is your main goal.",
+      "milk_mr": "दूध कमी देते - दूध हा मुख्य उद्देश असेल तर योग्य नाही.",
+      "farm_en": "Bullocks can do ploughing and carting - moderately strong.",
+      "farm_mr": "बैल नांगरणी व गाडी ओढण्याचे काम करू शकतात - मध्यम ताकद.",
+      "source_confidence": "check",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Toda": {
     "display_name": "Toda",
@@ -702,7 +1716,21 @@
     ],
     "description_en": "A semi-wild buffalo breed from Tamil Nadu.",
     "description_mr": "तमिळनाडू भागातील अर्ध-रानटी म्हैस जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "unknown",
+      "purpose_en": "Details not confirmed",
+      "purpose_mr": "तपशील निश्चित नाहीत",
+      "milk_level": "low",
+      "farm_work_level": "low",
+      "milk_en": "Gives little milk - not a good choice if milk is your main goal.",
+      "milk_mr": "दूध कमी देते - दूध हा मुख्य उद्देश असेल तर योग्य नाही.",
+      "farm_en": "Not suited to heavy farm work.",
+      "farm_mr": "जड शेतीकामांसाठी योग्य नाही.",
+      "source_confidence": "check",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Umblachery": {
     "display_name": "Umblachery",
@@ -712,7 +1740,21 @@
     ],
     "description_en": "A draught (farm work) cattle breed from Tamil Nadu.",
     "description_mr": "तमिळनाडू भागातील शेतीकामासाठी (ओढकाम करणारी) गाय/बैल जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "wetland_draught",
+      "purpose_en": "FARM WORK in wet paddy land",
+      "purpose_mr": "ओल्या भातशेतीतील शेतीकाम",
+      "milk_level": "low",
+      "farm_work_level": "high",
+      "milk_en": "Gives little milk - not a good choice if milk is your main goal.",
+      "milk_mr": "दूध कमी देते - दूध हा मुख्य उद्देश असेल तर योग्य नाही.",
+      "farm_en": "Used for ploughing in wet, puddled paddy fields of the Tamil Nadu delta.",
+      "farm_mr": "तमिळनाडूच्या डेल्टा भागातील ओल्या, चिखलाच्या भातशेतीत नांगरणीसाठी वापरली जाते.",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा."
+    }
   },
   "Vechur": {
     "display_name": "Vechur",
@@ -722,6 +1764,22 @@
     ],
     "description_en": "A small-bodied (dwarf) cattle breed from Kerala.",
     "description_mr": "केरळ भागातील लहान आकाराची (बुटकी) गाय/बैल जात.",
-    "verified": true
+    "verified": true,
+    "usage": {
+      "primary_use": "small_dairy",
+      "purpose_en": "small-scale / backyard keeping, low milk",
+      "purpose_mr": "लहान प्रमाणात / अंगणातील पालन, कमी दूध",
+      "milk_level": "low",
+      "farm_work_level": "very_low",
+      "milk_en": "Gives little milk - not a good choice if milk is your main goal.",
+      "milk_mr": "दूध कमी देते - दूध हा मुख्य उद्देश असेल तर योग्य नाही.",
+      "farm_en": "Not used for farm work.",
+      "farm_mr": "शेतीकामासाठी वापरली जात नाही.",
+      "source_confidence": "general",
+      "note_en": "General guidance for the breed - individual animals vary. Confirm with your local veterinary officer.",
+      "note_mr": "ही जातीसाठी सर्वसाधारण माहिती आहे - प्रत्येक जनावर वेगळे असते. स्थानिक पशुवैद्यकीय अधिकाऱ्यांकडून खात्री करा.",
+      "tip_en": "Tiny cow; low milk but needs very little feed.",
+      "tip_mr": "लहान गाय; दूध कमी, पण चारा खूप कमी लागतो."
+    }
   }
 }

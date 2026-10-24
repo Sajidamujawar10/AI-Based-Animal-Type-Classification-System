@@ -318,6 +318,76 @@
             color: var(--forest-deep);
         }
 
+
+        .usage-box {
+            margin-top: 10px;
+            padding: 12px 14px;
+            border-radius: 12px;
+            background: rgba(0, 0, 0, 0.04);
+            font-size: 0.88rem;
+            line-height: 1.5;
+        }
+
+        .usage-purpose {
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .usage-line {
+            margin: 6px 0;
+        }
+
+        .usage-label {
+            font-weight: 600;
+        }
+
+        .level {
+            display: inline-block;
+            padding: 1px 8px;
+            border-radius: 999px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            margin-left: 4px;
+            background: #e6e2d3;
+            color: #3a3a2a;
+        }
+
+        .level.high {
+            background: #cfe8c9;
+            color: #1f4d1a;
+        }
+
+        .level.medium {
+            background: #f3e6b3;
+            color: #5c4a00;
+        }
+
+        .level.low,
+        .level.very_low {
+            background: #f0d3cc;
+            color: #6b2a1d;
+        }
+
+        .usage-note {
+            font-size: 0.75rem;
+            color: #857f6b;
+            margin-top: 8px;
+        }
+
+        .usage-check {
+            font-size: 0.78rem;
+            color: #8a5a00;
+            margin-top: 6px;
+        }
+
+        .prediction-row {
+            flex-wrap: wrap;
+        }
+
+        .prediction-row .usage-box {
+            flex-basis: 100%;
+        }
+
         .prediction-info {
             flex: 1;
             min-width: 0;
@@ -631,6 +701,9 @@
                 errBadFile: "This file could not be read as an image. Please try another photo.",
                 errTooBig: "Image is too large (max 10 MB). Please use a smaller photo.",
                 errGeneric: "Something went wrong. Please try again.",
+                purposeLabel: "Best for", milkLabel: "Milk", farmLabel: "Farm work",
+                lvHigh: "High", lvMedium: "Medium", lvLow: "Low", lvVeryLow: "Very low", lvUnknown: "Unknown",
+                approxMilk: "Typical milk per lactation (approx.)", checkBreed: "Details for this breed are not fully confirmed - verify before relying on them.",
                 dbTitle: "Breed Database",
                 dbDesc: "Reference information for common Indian cattle and buffalo breeds.",
                 footerText: "Built to support the Ministry of Fisheries, Animal Husbandry & Dairying —",
@@ -654,6 +727,9 @@
                 errBadFile: "ही फाईल फोटो म्हणून वाचता आली नाही. कृपया दुसरा फोटो वापरा.",
                 errTooBig: "फोटो खूप मोठा आहे (कमाल 10 MB). कृपया लहान फोटो वापरा.",
                 errGeneric: "काहीतरी चुकले. कृपया पुन्हा प्रयत्न करा.",
+                purposeLabel: "सर्वोत्तम उपयोग", milkLabel: "दूध", farmLabel: "शेतीकाम",
+                lvHigh: "जास्त", lvMedium: "मध्यम", lvLow: "कमी", lvVeryLow: "खूप कमी", lvUnknown: "अज्ञात",
+                approxMilk: "प्रति वेत सरासरी दूध (अंदाजे)", checkBreed: "या जातीची माहिती पूर्णपणे निश्चित नाही - वापरण्यापूर्वी खात्री करा.",
                 dbTitle: "जात माहिती संच",
                 dbDesc: "सामान्य भारतीय गाई व म्हशींच्या जातींची माहिती.",
                 footerText: "मत्स्यव्यवसाय, पशुसंवर्धन व दुग्धव्यवसाय मंत्रालयासाठी तयार —",
@@ -663,6 +739,7 @@
         };
 
         let currentLang = 'en';
+        var lastResult = null;
 
         function setLang(lang) {
             currentLang = lang;
@@ -674,6 +751,7 @@
                 if (translations[lang][key]) el.textContent = translations[lang][key];
             });
             renderBreedGrid();
+            if (lastResult) showPredictions(lastResult.predictions, lastResult.needsReview);
             const pill = document.getElementById('statusPill');
             if (pill && pill.dataset.kind) setStatus(pill.dataset.kind);
         }
@@ -787,7 +865,8 @@
         // Change API_BASE to your deployed backend URL (e.g. https://your-app.onrender.com).
         // You can also override it without editing code:  index.html?api=https://host
         // ---------------------------------------------------------------------
-        const API_BASE = new URLSearchParams(location.search).get('api') || 'http://localhost:8000';
+        const API_BASE = new URLSearchParams(location.search).get('api')
+            || (location.protocol.startsWith('http') ? location.origin : 'http://localhost:8000');
         let apiLive = false;
         const errorBox = document.getElementById('errorBox');
         const demoNote = document.getElementById('demoNote');
@@ -852,7 +931,34 @@
             }
         }
 
+        function levelBadge(level) {
+            const t = translations[currentLang];
+            const label = { high: t.lvHigh, medium: t.lvMedium, low: t.lvLow, very_low: t.lvVeryLow }[level] || t.lvUnknown;
+            return `<span class="level ${level}">${label}</span>`;
+        }
+
+        function usageHtml(u) {
+            if (!u) return '';
+            const t = translations[currentLang];
+            const mr = currentLang === 'mr';
+            const approx = u.approx_milk_kg_per_lactation
+                ? `<div class="usage-line"><span class="usage-label">${t.approxMilk}:</span> ${u.approx_milk_kg_per_lactation[0]}-${u.approx_milk_kg_per_lactation[1]} kg</div>` : '';
+            const tip = mr ? u.tip_mr : u.tip_en;
+            const check = u.source_confidence === 'check' ? `<div class="usage-check">⚠️ ${t.checkBreed}</div>` : '';
+            return `
+      <div class="usage-box ${mr ? 'devanagari' : ''}">
+        <div class="usage-purpose">🎯 ${t.purposeLabel}: ${mr ? u.purpose_mr : u.purpose_en}</div>
+        <div class="usage-line">🥛 <span class="usage-label">${t.milkLabel}:</span> ${levelBadge(u.milk_level)} ${mr ? u.milk_mr : u.milk_en}</div>
+        <div class="usage-line">🌾 <span class="usage-label">${t.farmLabel}:</span> ${levelBadge(u.farm_work_level)} ${mr ? u.farm_mr : u.farm_en}</div>
+        ${approx}
+        ${tip ? `<div class="usage-line">💡 ${tip}</div>` : ''}
+        ${check}
+        <div class="usage-note">${mr ? u.note_mr : u.note_en}</div>
+      </div>`;
+        }
+
         function showPredictions(predictions, needsReview) {
+            lastResult = { predictions, needsReview };
             const warn = needsReview ? `<div class="review-warn">⚠️ ${translations[currentLang].lowConf}</div>` : '';
             predictionList.innerHTML = warn + predictions.map((p, i) => `
     <div class="prediction-row ${i === 0 ? 'top' : ''}">
@@ -863,6 +969,7 @@
         <div class="confidence-bar-bg"><div class="confidence-bar-fill" style="width:${Number(p.confidence).toFixed(1)}%"></div></div>
       </div>
       <div class="confidence-pct">${Number(p.confidence).toFixed(1)}%</div>
+      ${usageHtml(p.usage)}
     </div>
   `).join('');
             resultsBox.style.display = 'block';

@@ -26,6 +26,7 @@ import numpy as np
 import tensorflow as tf
 from fastapi import FastAPI, File, HTTPException, Query, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import FileResponse
 from PIL import Image, ImageOps
 from pydantic import BaseModel
 
@@ -33,6 +34,7 @@ BASE_DIR = Path(__file__).parent
 MODEL_PATH = Path(os.getenv("MODEL_PATH", BASE_DIR / "breed_model_final.keras"))
 LABELS_PATH = Path(os.getenv("LABELS_PATH", BASE_DIR / "class_names.json"))
 BREED_INFO_PATH = BASE_DIR / "breed_info.json"
+FRONTEND_PATH = BASE_DIR.parent / "frontend" / "index.html"
 
 IMG_SIZE = 224
 MAX_UPLOAD_BYTES = 10 * 1024 * 1024   # 10 MB
@@ -82,6 +84,11 @@ class BreedPrediction(BaseModel):
     breed: str
     confidence: float
     type: str | None = None
+    origin_states: list[str] = []
+    description_en: str | None = None
+    description_mr: str | None = None
+    # Farmer-friendly guidance: main purpose, milk level, farm-work level, where to use.
+    usage: dict | None = None
 
 
 class PredictResponse(BaseModel):
@@ -101,6 +108,14 @@ def preprocess_image(image_bytes: bytes) -> np.ndarray:
     arr = tf.keras.utils.img_to_array(img)
     arr = tf.keras.applications.mobilenet_v3.preprocess_input(arr)
     return np.expand_dims(arr, axis=0)
+
+
+@app.get("/", include_in_schema=False)
+def home():
+    """Serve the web page so http://127.0.0.1:8000/ opens the app."""
+    if FRONTEND_PATH.exists():
+        return FileResponse(FRONTEND_PATH)
+    raise HTTPException(status_code=404, detail="Frontend not found. Use /docs for the API.")
 
 
 @app.get("/health")
@@ -137,10 +152,15 @@ async def predict(file: UploadFile = File(...), top_k: int = Query(3, ge=1, le=1
     preds = []
     for i in top:
         name = state["class_names"][i]
+        info = state["breed_info"].get(name, {})
         preds.append(BreedPrediction(
             breed=name,
             confidence=round(float(probs[i]) * 100, 2),
-            type=state["breed_info"].get(name, {}).get("type"),
+            type=info.get("type"),
+            origin_states=info.get("origin_states", []),
+            description_en=info.get("description_en"),
+            description_mr=info.get("description_mr"),
+            usage=info.get("usage"),
         ))
 
     return PredictResponse(
